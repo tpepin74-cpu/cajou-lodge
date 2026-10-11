@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+Sitemap: https://tpepin74-cpu.github.io/cajou-lodge/sitemap.xml
