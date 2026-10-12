@@ -1,0 +1,202 @@
+name: Publier le site Cajou finalise
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/publier-cajou-final.yml']
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cajou-final-publication
+  cancel-in-progress: false
+
+env:
+  RELEASE_TAG: cajou-final-20261012
+  EXPECTED_ZIP_SHA256: f18ab9b53749cb81bf18420700d0a92a41fc1355ffc0da5d596d2c2ff5f3c07f
+
+jobs:
+  preparer:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - name: Preparer le brouillon sans modifier les pages du site
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if ! gh release view "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release create "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --target main --draft \
+              --title "Cajou Lodge - site complet finalise" \
+              --notes "Ajoutez ici le ZIP Cajou-Lodge-site-complet-finalise.zip fourni dans ChatGPT, sans le decompresser, puis cliquez sur Publish release. GitHub verifiera son empreinte SHA-256, sauvegardera la version actuelle et remplacera le site complet. Les 30 pages, 188 photos, la video et le conseiller seront importes ensemble. Aucun remplacement n'est effectue tant que l'archive verifiee n'est pas presente."
+          fi
+          gh release view "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --json url,isDraft,tagName
+          echo 'Le site existant est inchange. Le brouillon attend le ZIP finalise.' >> "$GITHUB_STEP_SUMMARY"
+
+  importer:
+    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'release' && github.event.release.tag_name == 'cajou-final-20261012')
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+      pages: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: Recuperer uniquement le ZIP de cette publication
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/cajou-upload"
+          gh release download "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" \
+            --pattern '*.zip' --dir "$RUNNER_TEMP/cajou-upload"
+      - name: Verifier integralement l'archive avant tout remplacement
+        shell: python
+        run: |
+          import hashlib, json, os, pathlib, stat, zipfile
+          from html.parser import HTMLParser
+          from urllib.parse import unquote, urlsplit
+          temp = pathlib.Path(os.environ['RUNNER_TEMP'])
+          expected = os.environ['EXPECTED_ZIP_SHA256']
+          matches = [p for p in (temp/'cajou-upload').glob('*.zip') if hashlib.sha256(p.read_bytes()).hexdigest() == expected]
+          if len(matches) != 1:
+              raise SystemExit('Le ZIP finalise exact est absent ou modifie. Aucun fichier du site ne sera remplace.')
+          archive = matches[0]
+          root = temp/'cajou-final-verified'
+          root.mkdir(exist_ok=True)
+          public_roots = {'assets','fr','en','pt'}
+          public_files = {'.nojekyll','index.html','404.html','robots.txt','sitemap.xml'}
+          with zipfile.ZipFile(archive) as z:
+              if sum(i.file_size for i in z.infolist()) > 80000000:
+                  raise SystemExit('Archive trop volumineuse apres extraction.')
+              for info in z.infolist():
+                  name = pathlib.PurePosixPath(info.filename)
+                  if name.is_absolute() or '..' in name.parts or not name.parts or name.parts[0] != 'Cajou-Lodge-final':
+                      raise SystemExit('Chemin non autorise dans le ZIP.')
+                  if stat.S_ISLNK(info.external_attr >> 16):
+                      raise SystemExit('Lien symbolique refuse.')
+                  rel = pathlib.PurePosixPath(*name.parts[1:])
+                  if info.is_dir() or not rel.parts:
+                      continue
+                  if rel.parts[0] not in public_roots and rel.as_posix() not in public_files:
+                      continue
+                  target = root.joinpath(*rel.parts)
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  target.write_bytes(z.read(info))
+          pages = [p for lang in ('fr','en','pt') for p in (root/lang).rglob('*.html')]
+          large_photos = [p for p in (root/'assets/photos').glob('*.webp') if not p.stem.endswith('-640')]
+          thumbs = list((root/'assets/photos').glob('*-640.webp'))
+          assert len(pages) == 30, f'{len(pages)} pages au lieu de 30'
+          assert len(large_photos) == 188 and len(thumbs) == 188, 'Collection photo incomplete'
+          checks = {
+              'fr/index.html':'a231ae7279a0ed371549240da9c66b3c7f8dc060a7b8c7b4b7990f4cc090771a',
+              'assets/app.js':'db8c6c9b8381b81d5f7a205c89dc4f86cc4b675da6780e31a36c2e7e59b990b7',
+              'assets/final.css':'6d27d9660b744afc038dd79b38cb79ffc9252af1869167bb79b56bc90bda9359',
+              'assets/cajou-home-turquoise-v5.mp4':'0aa174107df9a3cdbd72867b6a1693a6afd5617d4593abf17e8d67f0a8cf25ab'
+          }
+          for rel, digest in checks.items():
+              assert hashlib.sha256((root/rel).read_bytes()).hexdigest() == digest, rel
+          class References(HTMLParser):
+              def __init__(self):
+                  super().__init__(); self.refs = []
+              def handle_starttag(self, tag, attrs):
+                  for key, value in attrs:
+                      if value and key in ('src','href','poster','data-src','data-poster','data-full','data-thumb'):
+                          self.refs.append(value)
+          missing = []
+          checked = 0
+          for page in pages:
+              parser = References(); parser.feed(page.read_text())
+              for value in parser.refs:
+                  parts = urlsplit(value)
+                  if parts.scheme or parts.netloc or not parts.path:
+                      continue
+                  path = unquote(parts.path)
+                  if path.startswith('/cajou-lodge/'):
+                      path = path[len('/cajou-lodge/'):]
+                      target = root/path
+                  elif path.startswith('/'):
+                      target = root/path.lstrip('/')
+                  else:
+                      target = page.parent/path
+                  target = target.resolve()
+                  if not target.is_relative_to(root.resolve()):
+                      missing.append((str(page.relative_to(root)),value)); continue
+                  if target.is_dir():
+                      target = target/'index.html'
+                  if not target.is_file():
+                      missing.append((str(page.relative_to(root)),value))
+                  checked += 1
+          if missing:
+              raise SystemExit('References manquantes : '+json.dumps(missing[:25], ensure_ascii=False))
+          print(json.dumps({'zip_sha256':expected,'pages':len(pages),'photos':len(large_photos),'references_verifiees':checked,'status':'valide'}, ensure_ascii=False))
+      - name: Sauvegarder puis remplacer le site sans effacer son historique
+        shell: bash
+        run: |
+          set -euo pipefail
+          BACKUP="sauvegarde-cajou-avant-publication-${GITHUB_RUN_ID}"
+          git push origin "HEAD:refs/heads/$BACKUP"
+          export BACKUP
+          python - <<'PY'
+          import os, pathlib, shutil, subprocess
+          repo = pathlib.Path.cwd()
+          source = pathlib.Path(os.environ['RUNNER_TEMP'])/'cajou-final-verified'
+          roots = {'assets','fr','en','pt'}
+          files = {'.nojekyll','index.html','404.html','robots.txt','sitemap.xml'}
+          tracked = subprocess.check_output(['git','ls-files','-z']).decode().split('\0')
+          for name in tracked:
+              if not name: continue
+              rel = pathlib.PurePosixPath(name)
+              if (rel.parts[0] in roots or name in files) and not (source/name).exists():
+                  (repo/name).unlink(missing_ok=True)
+          for item in source.rglob('*'):
+              if item.is_file():
+                  target = repo/item.relative_to(source)
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  shutil.copyfile(item,target)
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:
+              f.write('Archive verifiee : 30 pages, 188 photographies.\n\nSauvegarde : `'+os.environ['BACKUP']+'`.\n')
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- assets fr en pt .nojekyll index.html 404.html robots.txt sitemap.xml
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publier le site Cajou finalise : 188 photos, video, conseiller et preferences'
+            git push origin HEAD:main
+          fi
+          echo "CAJOU_PUBLISHED_COMMIT=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+      - name: Lancer et verifier la publication GitHub Pages existante
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds" >/dev/null
+          for i in $(seq 1 60); do
+            RESULT=$(gh api "repos/$GITHUB_REPOSITORY/pages/builds/latest")
+            STATUS=$(printf '%s' "$RESULT" | jq -r .status)
+            COMMIT=$(printf '%s' "$RESULT" | jq -r .commit)
+            if [ "$COMMIT" = "$CAJOU_PUBLISHED_COMMIT" ] && [ "$STATUS" = 'built' ]; then
+              echo 'Site publie : https://tpepin74-cpu.github.io/cajou-lodge/fr/' >> "$GITHUB_STEP_SUMMARY"
+              exit 0
+            fi
+            if [ "$COMMIT" = "$CAJOU_PUBLISHED_COMMIT" ] && [ "$STATUS" = 'errored' ]; then
+              printf '%s\n' "$RESULT"
+              exit 1
+            fi
+            sleep 5
+          done
+          echo 'Les fichiers sont remplaces dans main, mais la fin du deploiement Pages reste a verifier.' >&2
+          exit 1
