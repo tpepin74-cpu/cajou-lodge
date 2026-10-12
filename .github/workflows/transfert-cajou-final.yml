@@ -1,0 +1,43 @@
+name: Transfert du ZIP Cajou valide
+on:
+  push:
+    branches: [publication-cajou-final-20261012]
+    paths: ['.github/workflows/transfert-cajou-final.yml']
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: cajou-archive-transfer
+  cancel-in-progress: false
+jobs:
+  transfert:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      GH_TOKEN: ${{ github.token }}
+      EXPECTED_SHA256: f18ab9b53749cb81bf18420700d0a92a41fc1355ffc0da5d596d2c2ff5f3c07f
+      RELEASE_TAG: cajou-final-20261012
+    steps:
+      - name: Recuperer et verifier la copie exacte fournie par le proprietaire
+        shell: bash
+        run: |
+          set -euo pipefail
+          ARCHIVE="$RUNNER_TEMP/Cajou-Lodge-site-complet-finalise.zip"
+          curl --fail --silent --show-error --location --retry 2 --max-time 150 \
+            'https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-0eb0-8210-b983-d5e8391cb71a/raw?se=2026-10-12T13%3A17%3A52Z&sp=r&sv=2026-02-06&sr=b&scid=73c01ec2-774b-561c-bed7-1ec5cd19ea7d&skoid=a0b9f82a-c86e-4064-a822-2aa38890bb37&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-12T03%3A21%3A51Z&ske=2026-10-13T03%3A21%3A51Z&sks=b&skv=2026-02-06&sig=kddB49runltOFnLNjXeKSEOn8a/pLDZvTi/OezAx/iY%3D' \
+            --output "$ARCHIVE"
+          printf '%s  %s\n' "$EXPECTED_SHA256" "$ARCHIVE" | sha256sum --check --strict
+          test "$(stat -c%s "$ARCHIVE")" -eq 33439576
+          echo "Archive recue et empreinte SHA-256 verifiee." >> "$GITHUB_STEP_SUMMARY"
+      - name: Joindre l'archive au brouillon GitHub prepare
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh release upload "$RELEASE_TAG" "$RUNNER_TEMP/Cajou-Lodge-site-complet-finalise.zip" --repo "$GITHUB_REPOSITORY"
+          gh release view "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --json tagName,isDraft,assets
+      - name: Lancer l'importateur qui sauvegarde main avant le remplacement
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh api --method POST "repos/$GITHUB_REPOSITORY/actions/workflows/publier-cajou-final.yml/dispatches" -f ref=main
+          echo 'Archive disponible dans GitHub. Importateur de sauvegarde, verification et publication declenche.' >> "$GITHUB_STEP_SUMMARY"
