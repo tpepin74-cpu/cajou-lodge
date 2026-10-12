@@ -1,0 +1,40 @@
+name: Prepare Cajou publication
+on:
+  push:
+    branches: [publication-cajou-final-20261012]
+    paths: ['.github/workflows/cajou-publication.yml', '.publication/**']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inspect the supplied public photography gallery
+        shell: python
+        run: |
+          import json, pathlib, re, urllib.request
+          url = 'https://birdsofpassageco.pic-time.com/-cajoulodge/gallery'
+          req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+          with urllib.request.urlopen(req, timeout=60) as response:
+              data = response.read().decode('utf-8')
+              print('Gallery HTTP status:', response.status)
+              print('Final gallery URL:', response.url)
+          out = pathlib.Path('/tmp/cajou-gallery'); out.mkdir(exist_ok=True)
+          (out/'gallery.html').write_text(data)
+          scripts = re.findall(r'<script[^>]+src=[\"\x27]([^\"\x27]+)', data, re.I)
+          (out/'scripts.json').write_text(json.dumps(scripts, indent=2))
+          print('HTML size:', len(data))
+          print('Title:', re.findall(r'<title>(.*?)</title>', data, re.S))
+          print('Script URLs:', json.dumps(scripts))
+          for term in ['projectId', 'projectid', 'galleryId', 'Cajou', '4B0A4094', 'cdn', 'collection']:
+              match = re.search(re.escape(term), data, re.I)
+              if match:
+                  print('Gallery metadata near', term, ':', data[max(0, match.start()-150):match.start()+700])
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cajou-gallery-inspection
+          path: /tmp/cajou-gallery/
+          retention-days: 1
