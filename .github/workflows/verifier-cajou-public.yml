@@ -1,0 +1,137 @@
+name: Controle du site Cajou publie
+on:
+  push:
+    branches: [publication-cajou-final-20261012]
+    paths: ['.github/workflows/verifier-cajou-public.yml']
+permissions:
+  contents: read
+jobs:
+  verification:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Recuperer l'archive de reference sans modifier le site
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/cajou-qa"
+          gh release download cajou-final-20261012 --repo "$GITHUB_REPOSITORY" --pattern 'Cajou-Lodge-site-complet-finalise.zip' --dir "$RUNNER_TEMP/cajou-qa"
+      - name: Installer le navigateur de controle
+        run: |
+          python -m pip install playwright==1.63.0
+          python -m playwright install --with-deps chromium
+      - name: Comparer toutes les pages et les ressources avec l'archive validee
+        shell: python
+        run: |
+          import concurrent.futures, hashlib, json, os, pathlib, time, urllib.request, zipfile
+          out = pathlib.Path(os.environ['RUNNER_TEMP'])/'cajou-qa'
+          archive = out/'Cajou-Lodge-site-complet-finalise.zip'
+          assert hashlib.sha256(archive.read_bytes()).hexdigest() == 'f18ab9b53749cb81bf18420700d0a92a41fc1355ffc0da5d596d2c2ff5f3c07f'
+          base = 'https://tpepin74-cpu.github.io/cajou-lodge/'
+          roots = {'assets','fr','en','pt'}
+          root_files = {'index.html','404.html','robots.txt','sitemap.xml'}
+          entries = []
+          with zipfile.ZipFile(archive) as z:
+              for info in z.infolist():
+                  rel = pathlib.PurePosixPath(info.filename).relative_to('Cajou-Lodge-final')
+                  if not info.is_dir() and rel.parts and (rel.parts[0] in roots or str(rel) in root_files):
+                      entries.append((str(rel), hashlib.sha256(z.read(info)).hexdigest(), info.file_size))
+          def check(entry):
+              rel, digest, size = entry
+              error = None
+              for attempt in range(3):
+                  try:
+                      request = urllib.request.Request(base+rel+'?qa='+os.environ['GITHUB_RUN_ID'], headers={'User-Agent':'Cajou-publication-check','Cache-Control':'no-cache'})
+                      with urllib.request.urlopen(request, timeout=45) as response:
+                          body = response.read()
+                          actual = hashlib.sha256(body).hexdigest()
+                          if actual != digest:
+                              raise ValueError('Content does not match the validated archive')
+                          return {'path':rel,'status':response.status,'bytes':len(body),'sha256_match':True,'content_type':response.headers.get('content-type','')}
+                  except Exception as exc:
+                      error = str(exc)
+                      time.sleep(3*(attempt+1))
+              return {'path':rel,'error':error,'sha256_match':False}
+          with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+              results = list(pool.map(check, entries))
+          (out/'published-files.json').write_text(json.dumps(results, indent=2, ensure_ascii=False))
+          failed = [r for r in results if not r['sha256_match']]
+          summary = {'files_checked':len(results),'pages_checked':sum(p.startswith(('fr/','en/','pt/')) and p.endswith('.html') for p,_,_ in entries),'photographs':sum(p.startswith('assets/photos/') and p.endswith('.webp') and not p.endswith('-640.webp') for p,_,_ in entries),'failed':failed}
+          print(json.dumps(summary, ensure_ascii=False))
+          (out/'summary.json').write_text(json.dumps(summary, indent=2, ensure_ascii=False))
+          assert not failed, json.dumps(failed[:10], ensure_ascii=False)
+      - name: Verifier la pop-up, la video et le conseiller dans le navigateur
+        shell: python
+        run: |
+          import json, os, pathlib
+          from playwright.sync_api import sync_playwright
+          out = pathlib.Path(os.environ['RUNNER_TEMP'])/'cajou-qa'
+          results = []
+          with sync_playwright() as p:
+              browser = p.chromium.launch()
+              for width, height in ((1440,1000),(390,844)):
+                  context = browser.new_context(viewport={'width':width,'height':height}, reduced_motion='no-preference', locale='fr-FR', is_mobile=width<600, has_touch=width<600)
+                  page = context.new_page()
+                  errors = []
+                  page.on('pageerror', lambda error: errors.append(str(error)))
+                  page.goto('https://tpepin74-cpu.github.io/cajou-lodge/fr/', wait_until='domcontentloaded', timeout=60000)
+                  page.locator('#preferences-dialog').wait_for(state='visible')
+                  assert page.locator('#display-mode-standard').is_checked(), 'Immersive mode not selected'
+                  assert 'Comment souhaitez-vous' in page.locator('#preferences-title').inner_text()
+                  page.screenshot(path=str(out/f'popup-{width}.png'))
+                  page.locator('#preferences-form button[type=submit]').click()
+                  page.locator('#preferences-dialog').wait_for(state='hidden')
+                  page.wait_for_function('()=>{const v=document.querySelector("#hero-film");return v&&!v.paused&&v.currentTime>0.15&&v.readyState>=2}',timeout=45000)
+                  t1=page.locator('#hero-film').evaluate('(v)=>v.currentTime')
+                  page.wait_for_timeout(1200)
+                  t2=page.locator('#hero-film').evaluate('(v)=>v.currentTime')
+                  assert t1!=t2, 'Video time is not advancing'
+                  video=page.locator('#hero-film').evaluate('(v)=>({paused:v.paused,currentTime:v.currentTime,duration:v.duration,muted:v.muted,width:v.videoWidth,height:v.videoHeight})')
+                  page.screenshot(path=str(out/f'accueil-{width}.png'))
+                  launcher=page.locator('#cajou-advisor-launcher')
+                  assert launcher.inner_text().strip() == 'Votre conseiller en ligne'
+                  assert launcher.locator('svg.advisor-icon-online').count()==1
+                  launcher.click()
+                  page.locator('#cajou-advisor').wait_for(state='visible')
+                  page.screenshot(path=str(out/f'conseiller-{width}.png'))
+                  page.keyboard.press('Escape')
+                  page.locator('#cajou-advisor').wait_for(state='hidden')
+                  for y in range(0,int(page.evaluate('document.documentElement.scrollHeight')),700):
+                      page.evaluate('(y)=>window.scrollTo({top:y,behavior:"instant"})',y)
+                      page.wait_for_timeout(100)
+                  page.wait_for_timeout(1500)
+                  broken=page.locator('img').evaluate_all('(els)=>els.filter(e=>e.getClientRects().length&&getComputedStyle(e).visibility!=="hidden"&&e.complete&&e.naturalWidth===0).map(e=>e.currentSrc||e.src)')
+                  assert not broken, json.dumps(broken)
+                  assert page.evaluate('document.documentElement.scrollWidth <= innerWidth+1'), 'Horizontal overflow'
+                  page.locator('[data-manage-cookies]').click()
+                  page.locator('#display-mode-eco').check()
+                  page.locator('#preferences-form button[type=submit]').click()
+                  page.evaluate('window.scrollTo({top:0,behavior:"instant"})')
+                  page.wait_for_timeout(500)
+                  assert page.locator('#hero-film').evaluate('(v)=>v.paused'), 'Video continues in eco mode'
+                  page.locator('[data-manage-cookies]').click()
+                  page.locator('#display-mode-standard').check()
+                  page.locator('#preferences-form button[type=submit]').click()
+                  page.evaluate('window.scrollTo({top:0,behavior:"instant"})')
+                  page.wait_for_function('()=>{const v=document.querySelector("#hero-film");return v&&!v.paused}',timeout=30000)
+                  for lang in ('fr','en','pt'):
+                      page.goto(f'https://tpepin74-cpu.github.io/cajou-lodge/{lang}/',wait_until='domcontentloaded',timeout=60000)
+                      assert page.locator('html').get_attribute('lang')==lang
+                      assert not page.locator('#preferences-dialog').is_visible(), 'Stored choice lost'
+                      page.locator('#cajou-advisor-launcher').wait_for(state='visible')
+                      assert page.evaluate('document.documentElement.scrollWidth <= innerWidth+1'), lang+' overflow'
+                  assert not errors, json.dumps(errors)
+                  results.append({'width':width,'height':height,'immersive_selected':True,'video':video,'video_play_pause_resume':True,'advisor_button_and_icon':True,'three_languages':True,'broken_visible_images':broken,'javascript_errors':errors,'status':'passed'})
+                  context.close()
+              browser.close()
+          (out/'browser-report.json').write_text(json.dumps(results,indent=2,ensure_ascii=False))
+          print(json.dumps(results,ensure_ascii=False))
+      - name: Conserver les preuves de controle
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: cajou-controles-site-publie
+          path: |
+            ${{ runner.temp }}/cajou-qa/*.json
+            ${{ runner.temp }}/cajou-qa/*.png
+          retention-days: 14
