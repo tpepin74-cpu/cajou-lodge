@@ -35,6 +35,7 @@
         restart: ['M5 8a8 8 0 1 1-1 8M5 3v5h5'],
         arrow: ['M5 12h14m-6-6 6 6-6 6'],
         send: ['m5 11 14-7-5 16-3-7-6-2Z', 'm11 13 8-9'],
+        advisor: ['M5 12v-1a7 7 0 0 1 14 0v1', 'M5 11H4a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h2v-5H5Z', 'M19 11h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2v-5h1Z', 'M19 16v1c0 2-3 3-6 3', 'M13 20h-2v-2h2v2Z', 'M8 18l-3 3 .8-3.6', 'M2 7c.4-1.6 1.1-2.8 2.2-3.8', 'M.5 5.5C1 3.9 2 2.5 3.2 1.5'],
         cashew: ['M16.9 3.8c-4.3-2.1-10-.3-12 4.2-2.4 5.4.8 11.8 6.4 12.5 3.2.4 5.7-1.3 5.3-3.6-.3-1.9-2.2-2.1-3.7-2.7-2.1-.8-2.2-2.8-.8-4.3 1.3-1.4 4-1.3 5.3-2.6 1.2-1.3 1-2.7-.5-3.5Z', 'M9 7c-3 3.2-2.4 7.5.8 9.8'],
       };
       const svg = document.createElementNS(svgNS, 'svg');
@@ -47,9 +48,11 @@
       svg.setAttribute('aria-hidden', 'true');
       svg.setAttribute('focusable', 'false');
       svg.classList.add('advisor-icon');
-      (paths[name] || paths.arrow).forEach(path => {
+      if (name === 'advisor') svg.classList.add('advisor-icon-online');
+      (paths[name] || paths.arrow).forEach((path, index) => {
         const shape = document.createElementNS(svgNS, 'path');
         shape.setAttribute('d', path);
+        if (name === 'advisor' && index >= 6) shape.classList.add('advisor-signal', 'advisor-signal-' + index);
         svg.append(shape);
       });
       return svg;
@@ -70,9 +73,11 @@
     const safeHref = (value, whatsappOnly = false) => {
       if (typeof value !== 'string' || value.length > 10000 || /[\u0000-\u0020\\]/.test(value)) return null;
       try {
-        const url = new URL(value, window.location.origin);
-        if (!whatsappOnly && /^\/(?:cajou-lodge\/)?(fr|en|pt)\//.test(value) && url.origin === window.location.origin && /^\/(?:cajou-lodge\/)?(fr|en|pt)\//.test(url.pathname)) {
-          return `${url.pathname}${url.search}${url.hash}`;
+        const url = new URL(value, document.baseURI);
+        const root = new URL(window.CajouPaths.root);
+        if (!whatsappOnly && url.origin === root.origin && url.pathname.startsWith(root.pathname)) {
+          const withinSite = url.pathname.slice(root.pathname.length);
+          if (/^(fr|en|pt)\/(?:[a-z0-9-]+\/)?index\.html$/.test(withinSite)) return url.href;
         }
         if (url.origin === 'https://wa.me' && !url.username && !url.password && /^\/(245966333329|33603888193)$/.test(url.pathname) && !url.hash && [...url.searchParams.keys()].every(key => key === 'text')) {
           return url.href;
@@ -106,7 +111,7 @@
     }
     restored = undefined;
 
-    const launcher = button('advisor-launcher', ui.launcher, 'cashew');
+    const launcher = button('advisor-launcher', ui.launcher, 'advisor');
     launcher.id = 'cajou-advisor-launcher';
     launcher.setAttribute('aria-haspopup', 'dialog');
     launcher.setAttribute('aria-controls', 'cajou-advisor');

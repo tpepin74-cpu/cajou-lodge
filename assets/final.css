@@ -1,0 +1,107 @@
+/* Final integration, 12 October 2026. Original site, larger type and new photographs. */
+:root { --serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif; }
+html { font-size: 18px; }
+body { font-size: 20px; line-height: 1.7; }
+p, li { overflow-wrap: break-word; }
+h1,h2,h3,h4 { overflow-wrap: normal; word-break: normal; hyphens: none; }
+.eyebrow, .nav-place, .languages a, .menu-toggle, .btn, .header-book { font-size: 15px; }
+.btn, .header-book { letter-spacing: .065em; }
+.site-header .menu-toggle { min-height: 48px; }
+.section p, .home-intro p, .stay-step p, .form-aside p, .prepare-intro { font-size: max(18px, 1em); line-height: 1.75; }
+.site-footer { font-size: 18px; }
+.site-footer .footer-main p, .site-footer .footer-main a, .site-footer .footer-main button { font-size: 18px; line-height: 1.7; }
+.site-footer .footer-bottom, .site-footer .footer-bottom a, .site-footer .footer-bottom button { font-size: 16px; }
+.site-footer .footer-contacts strong { font-size: 20px; }
+input, select, textarea { font-size: 18px; }
+.photo-credits { font-size: 16px; color: var(--muted); padding-top: 28px; }
+.photo-index-card { content-visibility: auto; contain-intrinsic-size: auto 410px; }
+.photo-index-card img { object-fit: cover; }
+.legal-fonts-note { padding-block: 30px 65px; }
+/* Existing welcome, with neutral question and the immersive option recommended. */
+.preferences-dialog { width: min(760px, calc(100vw - 32px)); }
+.preferences-form { padding: 24px 34px 28px; }
+.preferences-dialog h2 { font-size: clamp(34px, 4.3vw, 46px); max-width: 650px; line-height: 1.05; }
+.preferences-eyebrow { font-size: 12px; }
+#preferences-intro { font-size: 18px; line-height: 1.6; max-width: 660px; margin-block: 17px 23px; }
+.preferences-mode { padding: 20px; }
+.preferences-pictogram { width: 52px; height: 52px; }
+.preferences-mode-badge { order: 1; font: 500 12px/1.4 var(--sans); letter-spacing: .055em; padding: 4px 9px; border: 1px solid currentColor; border-radius: 20px; margin: 2px 0 10px; opacity: .95; }
+.preferences-mode .preferences-pictogram { order: 0; }
+.preferences-mode-title { order: 2; font-size: 31px; max-width: none; margin: 0 0 11px; line-height: 1.05; }
+.preferences-mode-description { order: 3; font-size: 17px; line-height: 1.65; }
+.preferences-mode--standard:has(input:checked) { background: #30666a; color: #fcfaf5; border-color: #30666a; }
+.preferences-mode--eco:not(:has(input:checked)) { background: #fcfaf5; }
+.preferences-maps { margin-top: 22px; padding-top: 17px; }
+.preferences-maps legend { font-size: 17px; }
+.preferences-maps > p, .preferences-cookie-choice, .preferences-save { font-size: 16px; line-height: 1.55; }
+.preferences-maps > p { padding-top: 8px; }
+.preferences-bottom > p { font-size: 15px; }
+.preferences-save { min-height: 56px; }
+/* Actual live adviser control: larger accessible text, not a flattened mock-up. */
+.advisor-launcher { gap: 15px; min-height: 76px; padding: 17px 25px 17px 19px; font-size: 20px; line-height: 1.35; border-radius: 8px; background: var(--sea-deep); box-shadow: 0 8px 32px #18353729; letter-spacing: .005em; }
+.advisor-launcher > span { display:block; max-width: 260px; text-align: left; }
+.advisor-launcher .advisor-icon { width: 42px; height: 42px; flex-shrink: 0; stroke-width: 1.3; overflow: visible; }
+.advisor-icon-online .advisor-signal { animation: advisor-signal 4.8s ease-in-out infinite; transform-origin: 8px 10px; }
+.advisor-icon-online .advisor-signal-7 { animation-delay: .25s; }
+@keyframes advisor-signal { 0%,60%,100% { opacity:.34; transform:scale(.97); } 25%,38% { opacity:1; transform:scale(1.025); } }
+.eco-mode .advisor-signal, .reduce-motion .advisor-signal { animation: none !important; opacity: .7; }
+.advisor-dialog { width: min(500px,calc(100vw - 32px)); }
+.advisor-message, .advisor-message p, .advisor-choice, .advisor-input { font-size: 18px; line-height:1.55; }
+.advisor-disclaimer, .advisor-input-label, .advisor-source, .advisor-privacy { font-size: 15px; }
+.hero-video { object-fit: cover; }
+.video-toggle { min-height: 44px; z-index: 8; }
+@media(max-width:1000px) { .header-book { font-size: 14px; padding-inline: 15px; } .site-header { column-gap: 12px; } }
+@media(max-width:760px) {
+ body { font-size: 18px; }
+ .section p, .home-intro p, .stay-step p, .form-aside p, .prepare-intro { font-size: 18px; }
+ .eyebrow, .nav-place { font-size: 14px; letter-spacing: .15em; }
+ .languages a { font-size: 15px; }
+ .menu-toggle { font-size: 15px; }
+ .advisor-launcher { right:12px; max-width: calc(100vw - 24px); min-height: 66px; font-size: 18px; padding: 13px 18px 13px 14px; gap:12px; }
+ .advisor-launcher .advisor-icon { width:36px;height:36px; }
+ .advisor-dialog { width: calc(100vw - 20px); inset: auto 10px 10px; }
+}
+@media(max-width:600px) {
+ .preferences-dialog { width:calc(100vw - 20px); max-height:calc(100dvh - 20px); }
+ .preferences-form { padding:14px 20px 20px; }
+ .preferences-dialog h2 { font-size:35px; }
+ #preferences-intro { font-size:17px; margin-block:14px 18px; }
+ .preferences-modes { gap:10px; }
+ .preferences-mode { padding:14px 12px 16px; }
+ .preferences-mode > input { right:12px;top:16px; }
+ .preferences-pictogram { width:43px;height:43px; }
+ .preferences-mode-badge { font-size:11px; padding:3px 6px; margin-bottom:8px; }
+ .preferences-mode-title { font-size:28px; }
+ .preferences-mode-description { font-size:16px; }
+ .preferences-maps > p { font-size:15px; }
+ .preferences-cookie-choices { grid-template-columns:1fr;gap:8px; }
+ .preferences-cookie-choice { font-size:16px; }
+ .preferences-bottom > p { font-size:14px; }
+}
+@media(max-width:380px) {
+ .preferences-modes { grid-template-columns:1fr; }
+ .preferences-mode { display:flex; padding:14px 16px; }
+ .preferences-mode-title { max-width:none; }
+ .preferences-mode-description { max-width:none; }
+ .advisor-launcher { font-size:17px; gap:10px; }
+ .advisor-launcher > span { max-width:206px; }
+}
+@media(prefers-reduced-motion:reduce) { .advisor-signal { animation:none!important; opacity:.7; } }
+@media print { .advisor-launcher { display:none!important; } }
+@media(max-width:430px) {
+  .preferences-modes { grid-template-columns:1fr; }
+  .preferences-mode { display:grid; grid-template-columns:42px minmax(0,1fr); gap:5px 12px; padding:14px 16px; }
+  .preferences-mode .preferences-pictogram { grid-column:1;grid-row:1 / span 2;align-self:center;width:40px;height:40px; }
+  .preferences-mode-title { grid-column:2;grid-row:1;margin:0;padding-right:18px;font-size:27px; }
+  .preferences-mode-badge { grid-column:2;grid-row:2;justify-self:start;margin:0 0 5px; }
+  .preferences-mode-description { grid-column:1 / -1;grid-row:3;font-size:16px;line-height:1.55; }
+  .preferences-mode > input { right:12px;top:15px; }
+}
+/* A photograph of the archipelago is not a guarantee of a particular wildlife sighting. */
+.experience-photo-note { display:block;font:400 14px/1.5 var(--sans);color:var(--muted);padding-top:9px; }
+@media(max-width:600px) {
+  .preferences-bottom { position:sticky; bottom:-20px; z-index:3; background:var(--cream); padding:12px 20px 16px; margin-inline:-20px; box-shadow:0 -10px 20px -16px #213c3a66; }
+  .preferences-bottom > p { font-size:13px; line-height:1.45; margin-top:7px; }
+}
+
+.story-photo-caption {font:400 16px/1.55 var(--sans);color:var(--muted);margin:8px 0 20px;}

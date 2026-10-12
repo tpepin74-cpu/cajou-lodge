@@ -1,0 +1,4326 @@
+[
+  {
+    "category": "rooms",
+    "alt": {
+      "fr": "Lit fleuri et porte ouverte sur la terrasse du Cajou Lodge",
+      "en": "Flower-decorated bed and open terrace door at Cajou Lodge",
+      "pt": "Cama decorada com flores e porta aberta para o terraço do Cajou Lodge"
+    },
+    "id": "4B0A4094",
+    "number": 4094,
+    "original": "4B0A4094.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4094.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 99992
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4094-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 14380
+    }
+  },
+  {
+    "category": "rooms",
+    "alt": {
+      "fr": "Lit blanc sous un plafond en bois et un ventilateur",
+      "en": "White bed beneath a wooden ceiling and a fan",
+      "pt": "Cama branca sob um teto em madeira e uma ventoinha"
+    },
+    "id": "4B0A4105",
+    "number": 4105,
+    "original": "4B0A4105.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4105.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 88550
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4105-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 13280
+    }
+  },
+  {
+    "category": "rooms",
+    "alt": {
+      "fr": "Lit aux pétales de fleurs, tête de lit en bois et lumière chaude",
+      "en": "Bed with flower petals, wooden headboard and warm lighting",
+      "pt": "Cama com pétalas de flores, cabeceira em madeira e iluminação acolhedora"
+    },
+    "id": "4B0A4111",
+    "number": 4111,
+    "original": "4B0A4111.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4111.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 108766
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4111-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 17526
+    }
+  },
+  {
+    "category": "rooms",
+    "alt": {
+      "fr": "Pétales de fleurs disposés sur le linge blanc au nom de Cajou",
+      "en": "Flower petals arranged on white bed linen with the Cajou name",
+      "pt": "Pétalas de flores dispostas na roupa de cama branca com o nome Cajou"
+    },
+    "id": "4B0A4114",
+    "number": 4114,
+    "original": "4B0A4114.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4114.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 84342
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4114-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 11064
+    }
+  },
+  {
+    "category": "rooms",
+    "alt": {
+      "fr": "Espace douche aux tons ocre et séparation en bois naturel",
+      "en": "Ochre-toned shower area and natural wooden partition",
+      "pt": "Espaço de duche em tons ocre e divisória em madeira natural"
+    },
+    "id": "4B0A4124",
+    "number": 4124,
+    "original": "4B0A4124.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4124.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 72408
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4124-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 10626
+    }
+  },
+  {
+    "category": "rooms",
+    "alt": {
+      "fr": "Vue de la chambre, de la séparation en bois et de l’espace douche",
+      "en": "View of the bedroom, wooden partition and shower area",
+      "pt": "Vista do quarto, da divisória em madeira e do espaço de duche"
+    },
+    "id": "4B0A4126",
+    "number": 4126,
+    "original": "4B0A4126.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4126.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 98506
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4126-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 15248
+    }
+  },
+  {
+    "category": "rooms",
+    "alt": {
+      "fr": "Petite sculpture sur une assise en bois dans la chambre",
+      "en": "Small sculpture on wooden seating in the guest room",
+      "pt": "Pequena escultura num assento de madeira no quarto"
+    },
+    "id": "4B0A4129",
+    "number": 4129,
+    "original": "4B0A4129.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4129.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 82544
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4129-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 8838
+    }
+  },
+  {
+    "category": "rooms",
+    "alt": {
+      "fr": "La chambre ouverte sur une terrasse ensoleillée",
+      "en": "Guest room opening onto a sunlit terrace",
+      "pt": "Quarto aberto para um terraço soalheiro"
+    },
+    "id": "4B0A4143",
+    "number": 4143,
+    "original": "4B0A4143.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4143.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 77248
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4143-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 13568
+    }
+  },
+  {
+    "category": "rooms",
+    "alt": {
+      "fr": "Détail du chevet en bois près du lit fleuri",
+      "en": "Wooden bedside table beside the flower-decorated bed",
+      "pt": "Mesa de cabeceira em madeira junto à cama decorada com flores"
+    },
+    "id": "4B0A4146",
+    "number": 4146,
+    "original": "4B0A4146.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4146.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 73828
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4146-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 10158
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Terrasse, piscine et décoration du Cajou Lodge",
+      "en": "Terrace, pool and decorative details at Cajou Lodge",
+      "pt": "Terraço, piscina e detalhes decorativos do Cajou Lodge"
+    },
+    "id": "4B0A4148",
+    "number": 4148,
+    "original": "4B0A4148.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4148.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 131894
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4148-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 18474
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Terrasse, piscine et décoration du Cajou Lodge",
+      "en": "Terrace, pool and decorative details at Cajou Lodge",
+      "pt": "Terraço, piscina e detalhes decorativos do Cajou Lodge"
+    },
+    "id": "4B0A4150",
+    "number": 4150,
+    "original": "4B0A4150.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4150.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 103638
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4150-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 11346
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Terrasse, piscine et décoration du Cajou Lodge",
+      "en": "Terrace, pool and decorative details at Cajou Lodge",
+      "pt": "Terraço, piscina e detalhes decorativos do Cajou Lodge"
+    },
+    "id": "4B0A4157",
+    "number": 4157,
+    "original": "4B0A4157.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4157.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 132246
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4157-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 22464
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Tables de la terrasse du Cajou Lodge face à la mer",
+      "en": "Cajou Lodge terrace tables overlooking the sea",
+      "pt": "Mesas do terraço do Cajou Lodge com vista para o mar"
+    },
+    "id": "4B0A4161",
+    "number": 4161,
+    "original": "4B0A4161.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4161.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 181752
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4161-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 25012
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Salon aux coussins à motifs, bois sculpté et table basse",
+      "en": "Lounge with patterned cushions, carved wood and a coffee table",
+      "pt": "Salão com almofadas estampadas, madeira esculpida e mesa de centro"
+    },
+    "id": "4B0A4165",
+    "number": 4165,
+    "original": "4B0A4165.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4165.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 104572
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4165-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 17676
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Terrasse, piscine et décoration du Cajou Lodge",
+      "en": "Terrace, pool and decorative details at Cajou Lodge",
+      "pt": "Terraço, piscina e detalhes decorativos do Cajou Lodge"
+    },
+    "id": "4B0A4169",
+    "number": 4169,
+    "original": "4B0A4169.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4169.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 85272
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4169-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 11480
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Terrasse, piscine et décoration du Cajou Lodge",
+      "en": "Terrace, pool and decorative details at Cajou Lodge",
+      "pt": "Terraço, piscina e detalhes decorativos do Cajou Lodge"
+    },
+    "id": "4B0A4171",
+    "number": 4171,
+    "original": "4B0A4171.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4171.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 121568
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4171-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 19976
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Terrasse, piscine et décoration du Cajou Lodge",
+      "en": "Terrace, pool and decorative details at Cajou Lodge",
+      "pt": "Terraço, piscina e detalhes decorativos do Cajou Lodge"
+    },
+    "id": "4B0A4178",
+    "number": 4178,
+    "original": "4B0A4178.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4178.webp",
+      "width": 939,
+      "height": 1408,
+      "bytes": 243380
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4178-640.webp",
+      "width": 281,
+      "height": 422,
+      "bytes": 31952
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Piscine et lits de repos blancs sous les palmiers",
+      "en": "Pool and white daybeds beneath the palm trees",
+      "pt": "Piscina e camas de descanso brancas sob as palmeiras"
+    },
+    "id": "4B0A4185",
+    "number": 4185,
+    "original": "4B0A4185.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4185.webp",
+      "width": 939,
+      "height": 1408,
+      "bytes": 152006
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4185-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 27988
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Terrasse, piscine et décoration du Cajou Lodge",
+      "en": "Terrace, pool and decorative details at Cajou Lodge",
+      "pt": "Terraço, piscina e detalhes decorativos do Cajou Lodge"
+    },
+    "id": "4B0A4187",
+    "number": 4187,
+    "original": "4B0A4187.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4187.webp",
+      "width": 939,
+      "height": 1408,
+      "bytes": 195006
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4187-640.webp",
+      "width": 281,
+      "height": 422,
+      "bytes": 27706
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Terrasse, piscine et décoration du Cajou Lodge",
+      "en": "Terrace, pool and decorative details at Cajou Lodge",
+      "pt": "Terraço, piscina e detalhes decorativos do Cajou Lodge"
+    },
+    "id": "4B0A4190",
+    "number": 4190,
+    "original": "4B0A4190.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4190.webp",
+      "width": 939,
+      "height": 1408,
+      "bytes": 220936
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4190-640.webp",
+      "width": 281,
+      "height": 422,
+      "bytes": 26524
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Terrasse, piscine et décoration du Cajou Lodge",
+      "en": "Terrace, pool and decorative details at Cajou Lodge",
+      "pt": "Terraço, piscina e detalhes decorativos do Cajou Lodge"
+    },
+    "id": "4B0A4199",
+    "number": 4199,
+    "original": "4B0A4199.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4199.webp",
+      "width": 939,
+      "height": 1408,
+      "bytes": 144642
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4199-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 27084
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Bar sous une pergola en bois, tables et horizon marin",
+      "en": "Bar beneath a wooden pergola, tables and sea horizon",
+      "pt": "Bar sob uma pérgula de madeira, mesas e horizonte marítimo"
+    },
+    "id": "4B0A4206",
+    "number": 4206,
+    "original": "4B0A4206.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4206.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 208246
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4206-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 30986
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Lit de repos à voilages blancs au bord de la piscine",
+      "en": "Daybed with white curtains beside the pool",
+      "pt": "Cama de descanso com cortinas brancas junto à piscina"
+    },
+    "id": "4B0A4210",
+    "number": 4210,
+    "original": "4B0A4210.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4210.webp",
+      "width": 939,
+      "height": 1408,
+      "bytes": 194522
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4210-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 31798
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Terrasse, piscine et décoration du Cajou Lodge",
+      "en": "Terrace, pool and decorative details at Cajou Lodge",
+      "pt": "Terraço, piscina e detalhes decorativos do Cajou Lodge"
+    },
+    "id": "4B0A4213",
+    "number": 4213,
+    "original": "4B0A4213.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4213.webp",
+      "width": 939,
+      "height": 1408,
+      "bytes": 224226
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4213-640.webp",
+      "width": 281,
+      "height": 422,
+      "bytes": 27980
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Terrasse, piscine et décoration du Cajou Lodge",
+      "en": "Terrace, pool and decorative details at Cajou Lodge",
+      "pt": "Terraço, piscina e detalhes decorativos do Cajou Lodge"
+    },
+    "id": "4B0A4215",
+    "number": 4215,
+    "original": "4B0A4215.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4215.webp",
+      "width": 939,
+      "height": 1408,
+      "bytes": 181076
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4215-640.webp",
+      "width": 281,
+      "height": 422,
+      "bytes": 28264
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Terrasse, piscine et décoration du Cajou Lodge",
+      "en": "Terrace, pool and decorative details at Cajou Lodge",
+      "pt": "Terraço, piscina e detalhes decorativos do Cajou Lodge"
+    },
+    "id": "4B0A4229",
+    "number": 4229,
+    "original": "4B0A4229.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4229.webp",
+      "width": 939,
+      "height": 1408,
+      "bytes": 190674
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4229-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 27186
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Masque décoratif sculpté sur un tronc près de la mer",
+      "en": "Decorative carved mask on a tree trunk near the sea",
+      "pt": "Máscara decorativa esculpida num tronco junto ao mar"
+    },
+    "id": "4B0A4232",
+    "number": 4232,
+    "original": "4B0A4232.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4232.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 129470
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4232-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 19430
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Terrasse, piscine et décoration du Cajou Lodge",
+      "en": "Terrace, pool and decorative details at Cajou Lodge",
+      "pt": "Terraço, piscina e detalhes decorativos do Cajou Lodge"
+    },
+    "id": "4B0A4234",
+    "number": 4234,
+    "original": "4B0A4234.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4234.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 139516
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4234-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 27200
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "La table et le bar du Cajou Lodge",
+      "en": "Dining and the bar at Cajou Lodge",
+      "pt": "A mesa e o bar do Cajou Lodge"
+    },
+    "id": "4B0A4236",
+    "number": 4236,
+    "original": "4B0A4236.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4236.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 114208
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4236-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 17890
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Bouteilles du bar abrité par une pergola en branches",
+      "en": "Bottles at the bar sheltered by a branch pergola",
+      "pt": "Garrafas do bar abrigado por uma pérgula de ramos"
+    },
+    "id": "4B0A4239",
+    "number": 4239,
+    "original": "4B0A4239.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4239.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 134556
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4239-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 27994
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Comptoir ocre et pergola en bois du bar extérieur",
+      "en": "Ochre counter and wooden pergola at the outdoor bar",
+      "pt": "Balcão ocre e pérgula de madeira do bar exterior"
+    },
+    "id": "4B0A4246",
+    "number": 4246,
+    "original": "4B0A4246.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4246.webp",
+      "width": 1408,
+      "height": 939,
+      "bytes": 165148
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4246-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 31706
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "La terrasse en bois au-dessus de l’eau",
+      "en": "The wooden terrace above the water",
+      "pt": "O terraço de madeira sobre a água"
+    },
+    "id": "4B0A4252",
+    "number": 4252,
+    "original": "4B0A4252.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4252.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 131728
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4252-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 19354
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Chapeau Cajou et boisson près de la piscine",
+      "en": "Cajou hat and drink beside the pool",
+      "pt": "Chapéu Cajou e bebida junto à piscina"
+    },
+    "id": "4B0A4262",
+    "number": 4262,
+    "original": "4B0A4262.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4262.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 121658
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4262-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 19306
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Terrasse, piscine et décoration du Cajou Lodge",
+      "en": "Terrace, pool and decorative details at Cajou Lodge",
+      "pt": "Terraço, piscina e detalhes decorativos do Cajou Lodge"
+    },
+    "id": "4B0A4267",
+    "number": 4267,
+    "original": "4B0A4267.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4267.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 151612
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4267-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 27790
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Terrasse, piscine et décoration du Cajou Lodge",
+      "en": "Terrace, pool and decorative details at Cajou Lodge",
+      "pt": "Terraço, piscina e detalhes decorativos do Cajou Lodge"
+    },
+    "id": "4B0A4270",
+    "number": 4270,
+    "original": "4B0A4270.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4270.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 117538
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4270-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 18270
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Terrasse, piscine et décoration du Cajou Lodge",
+      "en": "Terrace, pool and decorative details at Cajou Lodge",
+      "pt": "Terraço, piscina e detalhes decorativos do Cajou Lodge"
+    },
+    "id": "4B0A4273",
+    "number": 4273,
+    "original": "4B0A4273.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4273.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 131328
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4273-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 25588
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Terrasse, piscine et décoration du Cajou Lodge",
+      "en": "Terrace, pool and decorative details at Cajou Lodge",
+      "pt": "Terraço, piscina e detalhes decorativos do Cajou Lodge"
+    },
+    "id": "4B0A4277",
+    "number": 4277,
+    "original": "4B0A4277.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4277.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 98000
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4277-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 10448
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Collection de masques sur le mur ocre du lodge",
+      "en": "Collection of masks on the lodge’s ochre wall",
+      "pt": "Coleção de máscaras na parede ocre do lodge"
+    },
+    "id": "4B0A4279",
+    "number": 4279,
+    "original": "4B0A4279.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4279.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 82560
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4279-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 12976
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Terrasse, piscine et décoration du Cajou Lodge",
+      "en": "Terrace, pool and decorative details at Cajou Lodge",
+      "pt": "Terraço, piscina e detalhes decorativos do Cajou Lodge"
+    },
+    "id": "4B0A4287",
+    "number": 4287,
+    "original": "4B0A4287.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4287.webp",
+      "width": 939,
+      "height": 1408,
+      "bytes": 184394
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4287-640.webp",
+      "width": 281,
+      "height": 422,
+      "bytes": 25490
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Bassin de la piscine, palmier et pergola ouverte",
+      "en": "Pool, palm tree and open pergola",
+      "pt": "Piscina, palmeira e pérgula aberta"
+    },
+    "id": "4B0A4289",
+    "number": 4289,
+    "original": "4B0A4289.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4289.webp",
+      "width": 939,
+      "height": 1408,
+      "bytes": 167706
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4289-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 27398
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Terrasse, piscine et décoration du Cajou Lodge",
+      "en": "Terrace, pool and decorative details at Cajou Lodge",
+      "pt": "Terraço, piscina e detalhes decorativos do Cajou Lodge"
+    },
+    "id": "4B0A4292",
+    "number": 4292,
+    "original": "4B0A4292.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4292.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 134922
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4292-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 23556
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Terrasse, piscine et décoration du Cajou Lodge",
+      "en": "Terrace, pool and decorative details at Cajou Lodge",
+      "pt": "Terraço, piscina e detalhes decorativos do Cajou Lodge"
+    },
+    "id": "4B0A4298",
+    "number": 4298,
+    "original": "4B0A4298.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4298.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 89118
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4298-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 12774
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Terrasse, piscine et décoration du Cajou Lodge",
+      "en": "Terrace, pool and decorative details at Cajou Lodge",
+      "pt": "Terraço, piscina e detalhes decorativos do Cajou Lodge"
+    },
+    "id": "4B0A4300",
+    "number": 4300,
+    "original": "4B0A4300.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4300.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 121570
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4300-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 19580
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Hamac et table en bois dans le jardin du lodge",
+      "en": "Hammock and wooden table in the lodge garden",
+      "pt": "Rede e mesa de madeira no jardim do lodge"
+    },
+    "id": "4B0A4303",
+    "number": 4303,
+    "original": "4B0A4303.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4303.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 125530
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4303-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 23188
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Terrasse, piscine et décoration du Cajou Lodge",
+      "en": "Terrace, pool and decorative details at Cajou Lodge",
+      "pt": "Terraço, piscina e detalhes decorativos do Cajou Lodge"
+    },
+    "id": "4B0A4305",
+    "number": 4305,
+    "original": "4B0A4305.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4305.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 91228
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4305-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 15432
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Terrasse, piscine et décoration du Cajou Lodge",
+      "en": "Terrace, pool and decorative details at Cajou Lodge",
+      "pt": "Terraço, piscina e detalhes decorativos do Cajou Lodge"
+    },
+    "id": "4B0A4309",
+    "number": 4309,
+    "original": "4B0A4309.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4309.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 134332
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4309-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 27198
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Terrasse, piscine et décoration du Cajou Lodge",
+      "en": "Terrace, pool and decorative details at Cajou Lodge",
+      "pt": "Terraço, piscina e detalhes decorativos do Cajou Lodge"
+    },
+    "id": "4B0A4314",
+    "number": 4314,
+    "original": "4B0A4314.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4314.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 123576
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4314-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 19834
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Branches encadrant l’horizon et la rive opposée",
+      "en": "Branches framing the horizon and opposite shore",
+      "pt": "Ramos a enquadrar o horizonte e a margem oposta"
+    },
+    "id": "4B0A4316",
+    "number": 4316,
+    "original": "4B0A4316.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4316.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 84124
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4316-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 10648
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Terrasse, piscine et décoration du Cajou Lodge",
+      "en": "Terrace, pool and decorative details at Cajou Lodge",
+      "pt": "Terraço, piscina e detalhes decorativos do Cajou Lodge"
+    },
+    "id": "4B0A4322",
+    "number": 4322,
+    "original": "4B0A4322.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4322.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 130680
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4322-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 27408
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "La table et le bar du Cajou Lodge",
+      "en": "Dining and the bar at Cajou Lodge",
+      "pt": "A mesa e o bar do Cajou Lodge"
+    },
+    "id": "4B0A4332",
+    "number": 4332,
+    "original": "4B0A4332.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4332.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 124572
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4332-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 16784
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "Entrée servie dans un bol, fleur et couverts sur la table",
+      "en": "Starter served in a bowl, a flower and cutlery on the table",
+      "pt": "Entrada servida numa tigela, flor e talheres na mesa"
+    },
+    "id": "4B0A4351",
+    "number": 4351,
+    "original": "4B0A4351.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4351.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 122036
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4351-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 16880
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "La table et le bar du Cajou Lodge",
+      "en": "Dining and the bar at Cajou Lodge",
+      "pt": "A mesa e o bar do Cajou Lodge"
+    },
+    "id": "4B0A4369",
+    "number": 4369,
+    "original": "4B0A4369.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4369.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 116892
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4369-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 16678
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "Assiette dressée sur une table en bois éclairée à la lanterne",
+      "en": "Plated dish on a lantern-lit wooden table",
+      "pt": "Prato servido numa mesa de madeira iluminada por uma lanterna"
+    },
+    "id": "4B0A4381",
+    "number": 4381,
+    "original": "4B0A4381.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4381.webp",
+      "width": 1408,
+      "height": 939,
+      "bytes": 173172
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4381-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 26830
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "La table et le bar du Cajou Lodge",
+      "en": "Dining and the bar at Cajou Lodge",
+      "pt": "A mesa e o bar do Cajou Lodge"
+    },
+    "id": "4B0A4403",
+    "number": 4403,
+    "original": "4B0A4403.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4403.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 117990
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4403-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 19444
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "Poisson préparé, citron et légumes dans une assiette rectangulaire",
+      "en": "Prepared fish, lemon and vegetables on a rectangular plate",
+      "pt": "Peixe preparado, limão e legumes num prato retangular"
+    },
+    "id": "4B0A4406",
+    "number": 4406,
+    "original": "4B0A4406.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4406.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 125492
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4406-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 21642
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "La table et le bar du Cajou Lodge",
+      "en": "Dining and the bar at Cajou Lodge",
+      "pt": "A mesa e o bar do Cajou Lodge"
+    },
+    "id": "4B0A4413",
+    "number": 4413,
+    "original": "4B0A4413.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4413.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 101968
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4413-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 16768
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "Assiette gourmande près d’un chapeau Cajou",
+      "en": "Plated meal beside a Cajou hat",
+      "pt": "Prato servido junto a um chapéu Cajou"
+    },
+    "id": "4B0A4425",
+    "number": 4425,
+    "original": "4B0A4425.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4425.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 134368
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4425-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 25400
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "La table et le bar du Cajou Lodge",
+      "en": "Dining and the bar at Cajou Lodge",
+      "pt": "A mesa e o bar do Cajou Lodge"
+    },
+    "id": "4B0A4453",
+    "number": 4453,
+    "original": "4B0A4453.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4453.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 114632
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4453-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 16914
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "La table et le bar du Cajou Lodge",
+      "en": "Dining and the bar at Cajou Lodge",
+      "pt": "A mesa e o bar do Cajou Lodge"
+    },
+    "id": "4B0A4458",
+    "number": 4458,
+    "original": "4B0A4458.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4458.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 123114
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4458-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 20134
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "Préparation d’une boisson au bar du Cajou Lodge",
+      "en": "Preparing a drink at the Cajou Lodge bar",
+      "pt": "Preparação de uma bebida no bar do Cajou Lodge"
+    },
+    "id": "4B0A4465",
+    "number": 4465,
+    "original": "4B0A4465.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4465.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 127596
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4465-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 20572
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Le Cajou Lodge au bord de la mer",
+      "en": "Cajou Lodge by the sea",
+      "pt": "Cajou Lodge à beira-mar"
+    },
+    "id": "4B0A4496",
+    "number": 4496,
+    "original": "4B0A4496.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4496.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 130900
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4496-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 24148
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "La table et le bar du Cajou Lodge",
+      "en": "Dining and the bar at Cajou Lodge",
+      "pt": "A mesa e o bar do Cajou Lodge"
+    },
+    "id": "4B0A4513",
+    "number": 4513,
+    "original": "4B0A4513.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4513.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 128012
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4513-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 23420
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "Une boisson rouge servie au bar",
+      "en": "A red drink served at the bar",
+      "pt": "Uma bebida vermelha servida no bar"
+    },
+    "id": "4B0A4524",
+    "number": 4524,
+    "original": "4B0A4524.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4524.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 102620
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4524-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 14988
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Le lodge et sa végétation vus depuis la mer",
+      "en": "The lodge and its vegetation seen from the sea",
+      "pt": "O lodge e a sua vegetação vistos do mar"
+    },
+    "id": "4B0A4552",
+    "number": 4552,
+    "original": "4B0A4552.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4552.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 236368
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4552-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 27974
+    }
+  },
+  {
+    "category": "sea",
+    "alt": {
+      "fr": "Traversée en bateau avec les voyageurs portant des gilets de sauvetage",
+      "en": "Boat crossing with guests wearing life jackets",
+      "pt": "Travessia de barco com viajantes a usar coletes salva-vidas"
+    },
+    "id": "4B0A4556",
+    "number": 4556,
+    "original": "4B0A4556.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4556.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 124902
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4556-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 18662
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Plage de sable doré bordée de palmiers",
+      "en": "Golden sandy beach fringed with palm trees",
+      "pt": "Praia de areia dourada ladeada de palmeiras"
+    },
+    "id": "4B0A4578",
+    "number": 4578,
+    "original": "4B0A4578.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4578.webp",
+      "width": 1408,
+      "height": 939,
+      "bytes": 161798
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4578-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 23806
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Paysages, sentiers et villages de l’archipel des Bijagos",
+      "en": "Landscapes, paths and villages in the Bijagos archipelago",
+      "pt": "Paisagens, caminhos e aldeias do arquipélago dos Bijagós"
+    },
+    "id": "4B0A4587",
+    "number": 4587,
+    "original": "4B0A4587.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4587.webp",
+      "width": 939,
+      "height": 1408,
+      "bytes": 230710
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4587-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 30550
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Paysages, sentiers et villages de l’archipel des Bijagos",
+      "en": "Landscapes, paths and villages in the Bijagos archipelago",
+      "pt": "Paisagens, caminhos e aldeias do arquipélago dos Bijagós"
+    },
+    "id": "4B0A4598",
+    "number": 4598,
+    "original": "4B0A4598.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4598.webp",
+      "width": 939,
+      "height": 1408,
+      "bytes": 332536
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4598-640.webp",
+      "width": 281,
+      "height": 422,
+      "bytes": 33610
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Voyageurs marchant sur un sentier entre les palmiers",
+      "en": "Travellers walking along a path between palm trees",
+      "pt": "Viajantes a caminhar num trilho entre palmeiras"
+    },
+    "id": "4B0A4612",
+    "number": 4612,
+    "original": "4B0A4612.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4612.webp",
+      "width": 1408,
+      "height": 939,
+      "bytes": 334560
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4612-640.webp",
+      "width": 422,
+      "height": 281,
+      "bytes": 33952
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Paysages, sentiers et villages de l’archipel des Bijagos",
+      "en": "Landscapes, paths and villages in the Bijagos archipelago",
+      "pt": "Paisagens, caminhos e aldeias do arquipélago dos Bijagós"
+    },
+    "id": "4B0A4616",
+    "number": 4616,
+    "original": "4B0A4616.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4616.webp",
+      "width": 939,
+      "height": 1408,
+      "bytes": 229158
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4616-640.webp",
+      "width": 281,
+      "height": 422,
+      "bytes": 27784
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Paysages, sentiers et villages de l’archipel des Bijagos",
+      "en": "Landscapes, paths and villages in the Bijagos archipelago",
+      "pt": "Paisagens, caminhos e aldeias do arquipélago dos Bijagós"
+    },
+    "id": "4B0A4620",
+    "number": 4620,
+    "original": "4B0A4620.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4620.webp",
+      "width": 1408,
+      "height": 939,
+      "bytes": 398984
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4620-640.webp",
+      "width": 422,
+      "height": 281,
+      "bytes": 35502
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Paysages, sentiers et villages de l’archipel des Bijagos",
+      "en": "Landscapes, paths and villages in the Bijagos archipelago",
+      "pt": "Paisagens, caminhos e aldeias do arquipélago dos Bijagós"
+    },
+    "id": "4B0A4628",
+    "number": 4628,
+    "original": "4B0A4628.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4628.webp",
+      "width": 1408,
+      "height": 939,
+      "bytes": 393898
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4628-640.webp",
+      "width": 422,
+      "height": 281,
+      "bytes": 36348
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Feuillage et fruits de l’anacardier",
+      "en": "Cashew tree foliage and fruit",
+      "pt": "Folhagem e frutos do cajueiro"
+    },
+    "id": "4B0A4632",
+    "number": 4632,
+    "original": "4B0A4632.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4632.webp",
+      "width": 939,
+      "height": 1408,
+      "bytes": 138836
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4632-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 31826
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Maisons rondes à toit de chaume dans un village",
+      "en": "Round thatched houses in a village",
+      "pt": "Casas redondas com telhado de colmo numa aldeia"
+    },
+    "id": "4B0A4640",
+    "number": 4640,
+    "original": "4B0A4640.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4640.webp",
+      "width": 1408,
+      "height": 939,
+      "bytes": 133308
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4640-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 21406
+    }
+  },
+  {
+    "category": "people",
+    "alt": {
+      "fr": "Rencontres et gestes du quotidien dans les villages",
+      "en": "Encounters and everyday life in the villages",
+      "pt": "Encontros e vida quotidiana nas aldeias"
+    },
+    "id": "4B0A4645",
+    "number": 4645,
+    "original": "4B0A4645.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4645.webp",
+      "width": 939,
+      "height": 1408,
+      "bytes": 134264
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4645-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 26842
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Paysages, sentiers et villages de l’archipel des Bijagos",
+      "en": "Landscapes, paths and villages in the Bijagos archipelago",
+      "pt": "Paisagens, caminhos e aldeias do arquipélago dos Bijagós"
+    },
+    "id": "4B0A4653",
+    "number": 4653,
+    "original": "4B0A4653.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4653.webp",
+      "width": 1408,
+      "height": 939,
+      "bytes": 135562
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4653-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 26852
+    }
+  },
+  {
+    "category": "people",
+    "alt": {
+      "fr": "Rencontres et gestes du quotidien dans les villages",
+      "en": "Encounters and everyday life in the villages",
+      "pt": "Encontros e vida quotidiana nas aldeias"
+    },
+    "id": "4B0A4672",
+    "number": 4672,
+    "original": "4B0A4672.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4672.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 87642
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4672-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 15770
+    }
+  },
+  {
+    "category": "people",
+    "alt": {
+      "fr": "Rencontres et gestes du quotidien dans les villages",
+      "en": "Encounters and everyday life in the villages",
+      "pt": "Encontros e vida quotidiana nas aldeias"
+    },
+    "id": "4B0A4686",
+    "number": 4686,
+    "original": "4B0A4686.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4686.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 132866
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4686-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 26122
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Paysages, sentiers et villages de l’archipel des Bijagos",
+      "en": "Landscapes, paths and villages in the Bijagos archipelago",
+      "pt": "Paisagens, caminhos e aldeias do arquipélago dos Bijagós"
+    },
+    "id": "4B0A4697",
+    "number": 4697,
+    "original": "4B0A4697.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4697.webp",
+      "width": 1408,
+      "height": 939,
+      "bytes": 128028
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4697-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 26174
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Paysages, sentiers et villages de l’archipel des Bijagos",
+      "en": "Landscapes, paths and villages in the Bijagos archipelago",
+      "pt": "Paisagens, caminhos e aldeias do arquipélago dos Bijagós"
+    },
+    "id": "4B0A4713",
+    "number": 4713,
+    "original": "4B0A4713.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4713.webp",
+      "width": 939,
+      "height": 1408,
+      "bytes": 197530
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4713-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 27132
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Paysages, sentiers et villages de l’archipel des Bijagos",
+      "en": "Landscapes, paths and villages in the Bijagos archipelago",
+      "pt": "Paisagens, caminhos e aldeias do arquipélago dos Bijagós"
+    },
+    "id": "4B0A4717",
+    "number": 4717,
+    "original": "4B0A4717.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4717.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 146646
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4717-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 31730
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Paysages, sentiers et villages de l’archipel des Bijagos",
+      "en": "Landscapes, paths and villages in the Bijagos archipelago",
+      "pt": "Paisagens, caminhos e aldeias do arquipélago dos Bijagós"
+    },
+    "id": "4B0A4728",
+    "number": 4728,
+    "original": "4B0A4728.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4728.webp",
+      "width": 1408,
+      "height": 939,
+      "bytes": 192112
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4728-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 27850
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Paysages, sentiers et villages de l’archipel des Bijagos",
+      "en": "Landscapes, paths and villages in the Bijagos archipelago",
+      "pt": "Paisagens, caminhos e aldeias do arquipélago dos Bijagós"
+    },
+    "id": "4B0A4740",
+    "number": 4740,
+    "original": "4B0A4740.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4740.webp",
+      "width": 1408,
+      "height": 939,
+      "bytes": 170378
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4740-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 27758
+    }
+  },
+  {
+    "category": "people",
+    "alt": {
+      "fr": "Un geste de tressage traditionnel dans le village",
+      "en": "Traditional weaving in the village",
+      "pt": "Um gesto de tecelagem tradicional na aldeia"
+    },
+    "id": "4B0A4747",
+    "number": 4747,
+    "original": "4B0A4747.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4747.webp",
+      "width": 939,
+      "height": 1408,
+      "bytes": 162146
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4747-640.webp",
+      "width": 281,
+      "height": 422,
+      "bytes": 31386
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Paysages, sentiers et villages de l’archipel des Bijagos",
+      "en": "Landscapes, paths and villages in the Bijagos archipelago",
+      "pt": "Paisagens, caminhos e aldeias do arquipélago dos Bijagós"
+    },
+    "id": "4B0A4756",
+    "number": 4756,
+    "original": "4B0A4756.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4756.webp",
+      "width": 1408,
+      "height": 939,
+      "bytes": 213166
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4756-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 27544
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Paysages, sentiers et villages de l’archipel des Bijagos",
+      "en": "Landscapes, paths and villages in the Bijagos archipelago",
+      "pt": "Paisagens, caminhos e aldeias do arquipélago dos Bijagós"
+    },
+    "id": "4B0A4759",
+    "number": 4759,
+    "original": "4B0A4759.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4759.webp",
+      "width": 1408,
+      "height": 939,
+      "bytes": 177982
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4759-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 26314
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Paysages, sentiers et villages de l’archipel des Bijagos",
+      "en": "Landscapes, paths and villages in the Bijagos archipelago",
+      "pt": "Paisagens, caminhos e aldeias do arquipélago dos Bijagós"
+    },
+    "id": "4B0A4766",
+    "number": 4766,
+    "original": "4B0A4766.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4766.webp",
+      "width": 1408,
+      "height": 939,
+      "bytes": 251440
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4766-640.webp",
+      "width": 422,
+      "height": 281,
+      "bytes": 27578
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Mangrove verdoyante au bord de l’eau",
+      "en": "Green mangrove at the water’s edge",
+      "pt": "Mangual verde junto à água"
+    },
+    "id": "4B0A4782",
+    "number": 4782,
+    "original": "4B0A4782.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4782.webp",
+      "width": 1408,
+      "height": 939,
+      "bytes": 191278
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4782-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 27826
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Façade ocre et galerie en bois du Cajou Lodge",
+      "en": "Ochre façade and wooden gallery at Cajou Lodge",
+      "pt": "Fachada ocre e galeria em madeira do Cajou Lodge"
+    },
+    "id": "4B0A4789",
+    "number": 4789,
+    "original": "4B0A4789.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4789.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 129444
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4789-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 20454
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Un voyageur devant les masques décoratifs du lodge",
+      "en": "A traveller in front of the lodge’s decorative masks",
+      "pt": "Um viajante diante das máscaras decorativas do lodge"
+    },
+    "id": "4B0A4812",
+    "number": 4812,
+    "original": "4B0A4812.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4812.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 70794
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4812-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 10832
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Un moment au Cajou Lodge face à la mer",
+      "en": "A moment at Cajou Lodge overlooking the sea",
+      "pt": "Um momento no Cajou Lodge com vista para o mar"
+    },
+    "id": "4B0A4824",
+    "number": 4824,
+    "original": "4B0A4824.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4824.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 126932
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4824-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 23218
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Un moment au Cajou Lodge face à la mer",
+      "en": "A moment at Cajou Lodge overlooking the sea",
+      "pt": "Um momento no Cajou Lodge com vista para o mar"
+    },
+    "id": "4B0A4832",
+    "number": 4832,
+    "original": "4B0A4832.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4832.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 95330
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4832-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 10130
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Un moment au Cajou Lodge face à la mer",
+      "en": "A moment at Cajou Lodge overlooking the sea",
+      "pt": "Um momento no Cajou Lodge com vista para o mar"
+    },
+    "id": "4B0A4843",
+    "number": 4843,
+    "original": "4B0A4843.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4843.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 90524
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4843-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 9442
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Un moment au Cajou Lodge face à la mer",
+      "en": "A moment at Cajou Lodge overlooking the sea",
+      "pt": "Um momento no Cajou Lodge com vista para o mar"
+    },
+    "id": "4B0A4846",
+    "number": 4846,
+    "original": "4B0A4846.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4846.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 66410
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4846-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 8444
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Un voyageur observe la mer aux jumelles depuis la terrasse",
+      "en": "A traveller looking out to sea with binoculars from the terrace",
+      "pt": "Um viajante observa o mar com binóculos a partir do terraço"
+    },
+    "id": "4B0A4856",
+    "number": 4856,
+    "original": "4B0A4856.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4856.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 131542
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4856-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 18818
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Un moment au Cajou Lodge face à la mer",
+      "en": "A moment at Cajou Lodge overlooking the sea",
+      "pt": "Um momento no Cajou Lodge com vista para o mar"
+    },
+    "id": "4B0A4865",
+    "number": 4865,
+    "original": "4B0A4865.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4865.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 130920
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4865-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 20404
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Un moment au Cajou Lodge face à la mer",
+      "en": "A moment at Cajou Lodge overlooking the sea",
+      "pt": "Um momento no Cajou Lodge com vista para o mar"
+    },
+    "id": "4B0A4880",
+    "number": 4880,
+    "original": "4B0A4880.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4880.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 95306
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4880-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 14674
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Un moment au Cajou Lodge face à la mer",
+      "en": "A moment at Cajou Lodge overlooking the sea",
+      "pt": "Um momento no Cajou Lodge com vista para o mar"
+    },
+    "id": "4B0A4888",
+    "number": 4888,
+    "original": "4B0A4888.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4888.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 117810
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4888-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 20334
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Deux personnes sur la terrasse au-dessus de la mer",
+      "en": "Two people on the terrace above the sea",
+      "pt": "Duas pessoas no terraço sobre o mar"
+    },
+    "id": "4B0A4902",
+    "number": 4902,
+    "original": "4B0A4902.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4902.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 127356
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4902-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 17526
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Le rivage de Bubaque dans la lumière de fin de journée",
+      "en": "Bubaque shore in the late-afternoon light",
+      "pt": "A margem de Bubaque à luz do final da tarde"
+    },
+    "id": "4B0A4935",
+    "number": 4935,
+    "original": "4B0A4935.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4935.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 132462
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4935-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 14742
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Le littoral et la plage de Bubaque",
+      "en": "The coastline and beach of Bubaque",
+      "pt": "O litoral e a praia de Bubaque"
+    },
+    "id": "4B0A4938",
+    "number": 4938,
+    "original": "4B0A4938.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4938.webp",
+      "width": 1408,
+      "height": 939,
+      "bytes": 198258
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4938-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 28028
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Le littoral et la plage de Bubaque",
+      "en": "The coastline and beach of Bubaque",
+      "pt": "O litoral e a praia de Bubaque"
+    },
+    "id": "4B0A4946",
+    "number": 4946,
+    "original": "4B0A4946.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4946.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 99850
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4946-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 14332
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Le littoral et la plage de Bubaque",
+      "en": "The coastline and beach of Bubaque",
+      "pt": "O litoral e a praia de Bubaque"
+    },
+    "id": "4B0A4958",
+    "number": 4958,
+    "original": "4B0A4958.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4958.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 92760
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4958-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 10904
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Le Cajou Lodge, sa piscine et ses lumières à la tombée de la nuit",
+      "en": "Cajou Lodge, its pool and lights at nightfall",
+      "pt": "Cajou Lodge, a piscina e as luzes ao anoitecer"
+    },
+    "id": "4B0A4975",
+    "number": 4975,
+    "original": "4B0A4975.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4975.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 122700
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4975-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 22816
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Le Cajou Lodge, sa piscine et ses lumières à la tombée de la nuit",
+      "en": "Cajou Lodge, its pool and lights at nightfall",
+      "pt": "Cajou Lodge, a piscina e as luzes ao anoitecer"
+    },
+    "id": "4B0A4981",
+    "number": 4981,
+    "original": "4B0A4981.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4981.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 125296
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4981-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 20372
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Le Cajou Lodge, sa piscine et ses lumières à la tombée de la nuit",
+      "en": "Cajou Lodge, its pool and lights at nightfall",
+      "pt": "Cajou Lodge, a piscina e as luzes ao anoitecer"
+    },
+    "id": "4B0A4988",
+    "number": 4988,
+    "original": "4B0A4988.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4988.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 135086
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4988-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 27658
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "La piscine et les tables illuminées à la tombée du jour",
+      "en": "The pool and illuminated tables at dusk",
+      "pt": "A piscina e as mesas iluminadas ao anoitecer"
+    },
+    "id": "4B0A4997",
+    "number": 4997,
+    "original": "4B0A4997.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a4997.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 124078
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a4997-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 20984
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Le Cajou Lodge, sa piscine et ses lumières à la tombée de la nuit",
+      "en": "Cajou Lodge, its pool and lights at nightfall",
+      "pt": "Cajou Lodge, a piscina e as luzes ao anoitecer"
+    },
+    "id": "4B0A5007",
+    "number": 5007,
+    "original": "4B0A5007.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5007.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 126180
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5007-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 21304
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Le Cajou Lodge, sa piscine et ses lumières à la tombée de la nuit",
+      "en": "Cajou Lodge, its pool and lights at nightfall",
+      "pt": "Cajou Lodge, a piscina e as luzes ao anoitecer"
+    },
+    "id": "4B0A5013",
+    "number": 5013,
+    "original": "4B0A5013.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5013.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 130068
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5013-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 25142
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Table dressée pour le dîner devant la piscine éclairée",
+      "en": "Table set for dinner beside the illuminated pool",
+      "pt": "Mesa posta para o jantar junto à piscina iluminada"
+    },
+    "id": "4B0A5017",
+    "number": 5017,
+    "original": "4B0A5017.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5017.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 127148
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5017-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 26614
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Le Cajou Lodge, sa piscine et ses lumières à la tombée de la nuit",
+      "en": "Cajou Lodge, its pool and lights at nightfall",
+      "pt": "Cajou Lodge, a piscina e as luzes ao anoitecer"
+    },
+    "id": "4B0A5019",
+    "number": 5019,
+    "original": "4B0A5019.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5019.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 117250
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5019-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 21120
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Le bar sous les guirlandes lumineuses",
+      "en": "The bar beneath strings of lights",
+      "pt": "O bar sob as grinaldas de luzes"
+    },
+    "id": "4B0A5023",
+    "number": 5023,
+    "original": "4B0A5023.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5023.webp",
+      "width": 1408,
+      "height": 939,
+      "bytes": 133610
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5023-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 28122
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Le Cajou Lodge, sa piscine et ses lumières à la tombée de la nuit",
+      "en": "Cajou Lodge, its pool and lights at nightfall",
+      "pt": "Cajou Lodge, a piscina e as luzes ao anoitecer"
+    },
+    "id": "4B0A5025",
+    "number": 5025,
+    "original": "4B0A5025.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5025.webp",
+      "width": 939,
+      "height": 1408,
+      "bytes": 155870
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5025-640.webp",
+      "width": 281,
+      "height": 422,
+      "bytes": 26276
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Le Cajou Lodge, sa piscine et ses lumières à la tombée de la nuit",
+      "en": "Cajou Lodge, its pool and lights at nightfall",
+      "pt": "Cajou Lodge, a piscina e as luzes ao anoitecer"
+    },
+    "id": "4B0A5042",
+    "number": 5042,
+    "original": "4B0A5042.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5042.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 131386
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5042-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 20180
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Le Cajou Lodge, sa piscine et ses lumières à la tombée de la nuit",
+      "en": "Cajou Lodge, its pool and lights at nightfall",
+      "pt": "Cajou Lodge, a piscina e as luzes ao anoitecer"
+    },
+    "id": "4B0A5074",
+    "number": 5074,
+    "original": "4B0A5074.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5074.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 131558
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5074-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 27390
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Le Cajou Lodge, sa piscine et ses lumières à la tombée de la nuit",
+      "en": "Cajou Lodge, its pool and lights at nightfall",
+      "pt": "Cajou Lodge, a piscina e as luzes ao anoitecer"
+    },
+    "id": "4B0A5085",
+    "number": 5085,
+    "original": "4B0A5085.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5085.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 119662
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5085-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 19542
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Le Cajou Lodge, sa piscine et ses lumières à la tombée de la nuit",
+      "en": "Cajou Lodge, its pool and lights at nightfall",
+      "pt": "Cajou Lodge, a piscina e as luzes ao anoitecer"
+    },
+    "id": "4B0A5109",
+    "number": 5109,
+    "original": "4B0A5109.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5109.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 124706
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5109-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 19072
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Le Cajou Lodge, sa piscine et ses lumières à la tombée de la nuit",
+      "en": "Cajou Lodge, its pool and lights at nightfall",
+      "pt": "Cajou Lodge, a piscina e as luzes ao anoitecer"
+    },
+    "id": "4B0A5123",
+    "number": 5123,
+    "original": "4B0A5123.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5123.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 122888
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5123-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 17866
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Le Cajou Lodge, sa piscine et ses lumières à la tombée de la nuit",
+      "en": "Cajou Lodge, its pool and lights at nightfall",
+      "pt": "Cajou Lodge, a piscina e as luzes ao anoitecer"
+    },
+    "id": "4B0A5126",
+    "number": 5126,
+    "original": "4B0A5126.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5126.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 122838
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5126-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 17976
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Le Cajou Lodge, sa piscine et ses lumières à la tombée de la nuit",
+      "en": "Cajou Lodge, its pool and lights at nightfall",
+      "pt": "Cajou Lodge, a piscina e as luzes ao anoitecer"
+    },
+    "id": "4B0A5143",
+    "number": 5143,
+    "original": "4B0A5143.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5143.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 126712
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5143-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 19140
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "Un plat servi à la table du lodge, vu du dessus",
+      "en": "A dish served at the lodge table, seen from above",
+      "pt": "Um prato servido à mesa do lodge, visto de cima"
+    },
+    "id": "4B0A5154",
+    "number": 5154,
+    "original": "4B0A5154.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5154.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 154820
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5154-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 25950
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "Un repas au Cajou Lodge",
+      "en": "A meal at Cajou Lodge",
+      "pt": "Uma refeição no Cajou Lodge"
+    },
+    "id": "4B0A5160",
+    "number": 5160,
+    "original": "4B0A5160.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5160.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 134830
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5160-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 25314
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "Un repas au Cajou Lodge",
+      "en": "A meal at Cajou Lodge",
+      "pt": "Uma refeição no Cajou Lodge"
+    },
+    "id": "4B0A5177",
+    "number": 5177,
+    "original": "4B0A5177.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5177.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 150736
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5177-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 26376
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "Un repas au Cajou Lodge",
+      "en": "A meal at Cajou Lodge",
+      "pt": "Uma refeição no Cajou Lodge"
+    },
+    "id": "4B0A5192",
+    "number": 5192,
+    "original": "4B0A5192.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5192.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 104920
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5192-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 14326
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "Un repas au Cajou Lodge",
+      "en": "A meal at Cajou Lodge",
+      "pt": "Uma refeição no Cajou Lodge"
+    },
+    "id": "4B0A5202",
+    "number": 5202,
+    "original": "4B0A5202.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5202.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 84750
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5202-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 7000
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "Petit-déjeuner sur la terrasse avec vue sur la mer",
+      "en": "Breakfast on the terrace overlooking the sea",
+      "pt": "Pequeno-almoço no terraço com vista para o mar"
+    },
+    "id": "4B0A5213",
+    "number": 5213,
+    "original": "4B0A5213.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5213.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 43226
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5213-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 6754
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "Tasse et petit-déjeuner devant l’horizon",
+      "en": "Cup and breakfast beside the sea horizon",
+      "pt": "Chávena e pequeno-almoço diante do horizonte marítimo"
+    },
+    "id": "4B0A5215",
+    "number": 5215,
+    "original": "4B0A5215.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5215.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 123452
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5215-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 17030
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "Un repas au Cajou Lodge",
+      "en": "A meal at Cajou Lodge",
+      "pt": "Uma refeição no Cajou Lodge"
+    },
+    "id": "4B0A5220",
+    "number": 5220,
+    "original": "4B0A5220.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5220.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 54200
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5220-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 8324
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Salon ouvert, banquettes et table en bois du lodge",
+      "en": "Open lounge, cushioned benches and wooden table at the lodge",
+      "pt": "Salão aberto, bancos com almofadas e mesa de madeira do lodge"
+    },
+    "id": "4B0A5229",
+    "number": 5229,
+    "original": "4B0A5229.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5229.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 132158
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5229-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 19208
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Décoration et découverte du lodge",
+      "en": "Decorative details and discovery of the lodge",
+      "pt": "Detalhes decorativos e descoberta do lodge"
+    },
+    "id": "4B0A5236",
+    "number": 5236,
+    "original": "4B0A5236.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5236.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 128774
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5236-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 22170
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Des voyageurs consultent la carte de l’archipel au lodge",
+      "en": "Travellers looking at an archipelago map at the lodge",
+      "pt": "Viajantes consultam o mapa do arquipélago no lodge"
+    },
+    "id": "4B0A5266",
+    "number": 5266,
+    "original": "4B0A5266.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5266.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 110206
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5266-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 17598
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Décoration et découverte du lodge",
+      "en": "Decorative details and discovery of the lodge",
+      "pt": "Detalhes decorativos e descoberta do lodge"
+    },
+    "id": "4B0A5272",
+    "number": 5272,
+    "original": "4B0A5272.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5272.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 131746
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5272-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 18690
+    }
+  },
+  {
+    "category": "sea",
+    "alt": {
+      "fr": "Pirogues et passagers près du rivage",
+      "en": "Canoes and passengers near the shore",
+      "pt": "Pirogas e passageiros junto à margem"
+    },
+    "id": "4B0A5279",
+    "number": 5279,
+    "original": "4B0A5279.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5279.webp",
+      "width": 1408,
+      "height": 939,
+      "bytes": 161646
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5279-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 23560
+    }
+  },
+  {
+    "category": "sea",
+    "alt": {
+      "fr": "Pirogues et rivages de l’archipel",
+      "en": "Canoes and shores of the archipelago",
+      "pt": "Pirogas e margens do arquipélago"
+    },
+    "id": "4B0A5291",
+    "number": 5291,
+    "original": "4B0A5291.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5291.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 129214
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5291-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 15806
+    }
+  },
+  {
+    "category": "sea",
+    "alt": {
+      "fr": "Pirogues sur l’eau au pied de la rive boisée",
+      "en": "Canoes on the water beneath the wooded shore",
+      "pt": "Pirogas na água junto à margem arborizada"
+    },
+    "id": "4B0A5297",
+    "number": 5297,
+    "original": "4B0A5297.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5297.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 139738
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5297-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 16022
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Découverte des villages, de la végétation et des plages",
+      "en": "Discovering villages, vegetation and beaches",
+      "pt": "Descoberta das aldeias, da vegetação e das praias"
+    },
+    "id": "4B0A5300",
+    "number": 5300,
+    "original": "4B0A5300.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5300.webp",
+      "width": 939,
+      "height": 1408,
+      "bytes": 189094
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5300-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 28334
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Une rue et les commerces de Bubaque",
+      "en": "A street and shops in Bubaque",
+      "pt": "Uma rua e os estabelecimentos de Bubaque"
+    },
+    "id": "4B0A5311",
+    "number": 5311,
+    "original": "4B0A5311.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5311.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 141526
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5311-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 21496
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Découverte des villages, de la végétation et des plages",
+      "en": "Discovering villages, vegetation and beaches",
+      "pt": "Descoberta das aldeias, da vegetação e das praias"
+    },
+    "id": "4B0A5321",
+    "number": 5321,
+    "original": "4B0A5321.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5321.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 131400
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5321-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 19716
+    }
+  },
+  {
+    "category": "sea",
+    "alt": {
+      "fr": "Pirogues colorées échouées sur le sable",
+      "en": "Colourful canoes resting on the sand",
+      "pt": "Pirogas coloridas sobre a areia"
+    },
+    "id": "4B0A5329",
+    "number": 5329,
+    "original": "4B0A5329.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5329.webp",
+      "width": 1408,
+      "height": 939,
+      "bytes": 134754
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5329-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 26860
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Découverte des villages, de la végétation et des plages",
+      "en": "Discovering villages, vegetation and beaches",
+      "pt": "Descoberta das aldeias, da vegetação e das praias"
+    },
+    "id": "4B0A5339",
+    "number": 5339,
+    "original": "4B0A5339.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5339.webp",
+      "width": 939,
+      "height": 1408,
+      "bytes": 229302
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5339-640.webp",
+      "width": 281,
+      "height": 422,
+      "bytes": 30946
+    }
+  },
+  {
+    "category": "people",
+    "alt": {
+      "fr": "Gestes d’accueil et moments de partage",
+      "en": "Welcoming gestures and shared moments",
+      "pt": "Gestos de acolhimento e momentos de partilha"
+    },
+    "id": "4B0A5356",
+    "number": 5356,
+    "original": "4B0A5356.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5356.webp",
+      "width": 939,
+      "height": 1408,
+      "bytes": 156644
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5356-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 30142
+    }
+  },
+  {
+    "category": "sea",
+    "alt": {
+      "fr": "Plage et pirogues devant les palmiers",
+      "en": "Beach and canoes in front of palm trees",
+      "pt": "Praia e pirogas diante das palmeiras"
+    },
+    "id": "4B0A5372",
+    "number": 5372,
+    "original": "4B0A5372.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5372.webp",
+      "width": 1408,
+      "height": 939,
+      "bytes": 187096
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5372-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 26820
+    }
+  },
+  {
+    "category": "sea",
+    "alt": {
+      "fr": "Pirogues et rivages de l’archipel",
+      "en": "Canoes and shores of the archipelago",
+      "pt": "Pirogas e margens do arquipélago"
+    },
+    "id": "4B0A5378",
+    "number": 5378,
+    "original": "4B0A5378.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5378.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 128008
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5378-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 19048
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Découverte des villages, de la végétation et des plages",
+      "en": "Discovering villages, vegetation and beaches",
+      "pt": "Descoberta das aldeias, da vegetação e das praias"
+    },
+    "id": "4B0A5402",
+    "number": 5402,
+    "original": "4B0A5402.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5402.webp",
+      "width": 939,
+      "height": 1408,
+      "bytes": 132556
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5402-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 19468
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Sentier ombragé sous les arbres",
+      "en": "Shaded path beneath the trees",
+      "pt": "Caminho à sombra das árvores"
+    },
+    "id": "4B0A5406",
+    "number": 5406,
+    "original": "4B0A5406.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5406.webp",
+      "width": 1408,
+      "height": 939,
+      "bytes": 445542
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5406-640.webp",
+      "width": 422,
+      "height": 281,
+      "bytes": 40290
+    }
+  },
+  {
+    "category": "people",
+    "alt": {
+      "fr": "Gestes d’accueil et moments de partage",
+      "en": "Welcoming gestures and shared moments",
+      "pt": "Gestos de acolhimento e momentos de partilha"
+    },
+    "id": "4B0A5426",
+    "number": 5426,
+    "original": "4B0A5426.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5426.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 134976
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5426-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 26528
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Rive sablonneuse et baie abritée",
+      "en": "Sandy shore and sheltered bay",
+      "pt": "Margem arenosa e baía abrigada"
+    },
+    "id": "4B0A5428",
+    "number": 5428,
+    "original": "4B0A5428.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5428.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 153924
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5428-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 21360
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Pirogue au bord d’une plage courbe et boisée",
+      "en": "Canoe beside a curved, wooded beach",
+      "pt": "Piroga junto a uma praia curva e arborizada"
+    },
+    "id": "4B0A5442",
+    "number": 5442,
+    "original": "4B0A5442.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5442.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 133442
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5442-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 13856
+    }
+  },
+  {
+    "category": "sea",
+    "alt": {
+      "fr": "Pirogue sur une eau calme près de la plage",
+      "en": "Canoe on calm water near the beach",
+      "pt": "Piroga em águas tranquilas junto à praia"
+    },
+    "id": "4B0A5453",
+    "number": 5453,
+    "original": "4B0A5453.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5453.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 91526
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5453-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 9540
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Découverte des villages, de la végétation et des plages",
+      "en": "Discovering villages, vegetation and beaches",
+      "pt": "Descoberta das aldeias, da vegetação e das praias"
+    },
+    "id": "4B0A5457",
+    "number": 5457,
+    "original": "4B0A5457.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5457.webp",
+      "width": 939,
+      "height": 1408,
+      "bytes": 194130
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5457-640.webp",
+      "width": 281,
+      "height": 422,
+      "bytes": 27342
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Découverte des villages, de la végétation et des plages",
+      "en": "Discovering villages, vegetation and beaches",
+      "pt": "Descoberta das aldeias, da vegetação e das praias"
+    },
+    "id": "4B0A5464",
+    "number": 5464,
+    "original": "4B0A5464.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5464.webp",
+      "width": 1408,
+      "height": 939,
+      "bytes": 136744
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5464-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 25922
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Découverte des villages, de la végétation et des plages",
+      "en": "Discovering villages, vegetation and beaches",
+      "pt": "Descoberta das aldeias, da vegetação e das praias"
+    },
+    "id": "4B0A5480",
+    "number": 5480,
+    "original": "4B0A5480.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5480.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 128854
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5480-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 17704
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Découverte des villages, de la végétation et des plages",
+      "en": "Discovering villages, vegetation and beaches",
+      "pt": "Descoberta das aldeias, da vegetação e das praias"
+    },
+    "id": "4B0A5482",
+    "number": 5482,
+    "original": "4B0A5482.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5482.webp",
+      "width": 939,
+      "height": 1408,
+      "bytes": 263302
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5482-640.webp",
+      "width": 281,
+      "height": 422,
+      "bytes": 33310
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "Saveurs et boissons préparées au Cajou Lodge",
+      "en": "Food and drinks prepared at Cajou Lodge",
+      "pt": "Sabores e bebidas preparados no Cajou Lodge"
+    },
+    "id": "4B0A5495",
+    "number": 5495,
+    "original": "4B0A5495.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5495.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 118534
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5495-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 20988
+    }
+  },
+  {
+    "category": "people",
+    "alt": {
+      "fr": "Un membre de l’équipe apporte un plateau de boissons",
+      "en": "A team member bringing a tray of drinks",
+      "pt": "Um membro da equipa traz um tabuleiro de bebidas"
+    },
+    "id": "4B0A5512",
+    "number": 5512,
+    "original": "4B0A5512.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5512.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 133660
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5512-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 27182
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Détente entre la piscine, la terrasse et l’océan",
+      "en": "Relaxing between the pool, terrace and ocean",
+      "pt": "Descontrair entre a piscina, o terraço e o oceano"
+    },
+    "id": "4B0A5515",
+    "number": 5515,
+    "original": "4B0A5515.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5515.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 85590
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5515-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 13576
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Détente entre la piscine, la terrasse et l’océan",
+      "en": "Relaxing between the pool, terrace and ocean",
+      "pt": "Descontrair entre a piscina, o terraço e o oceano"
+    },
+    "id": "4B0A5533",
+    "number": 5533,
+    "original": "4B0A5533.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5533.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 79098
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5533-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 11828
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Détente entre la piscine, la terrasse et l’océan",
+      "en": "Relaxing between the pool, terrace and ocean",
+      "pt": "Descontrair entre a piscina, o terraço e o oceano"
+    },
+    "id": "4B0A5544",
+    "number": 5544,
+    "original": "4B0A5544.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5544.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 127976
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5544-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 24494
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Détente entre la piscine, la terrasse et l’océan",
+      "en": "Relaxing between the pool, terrace and ocean",
+      "pt": "Descontrair entre a piscina, o terraço e o oceano"
+    },
+    "id": "4B0A5546",
+    "number": 5546,
+    "original": "4B0A5546.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5546.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 130976
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5546-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 23862
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Détente entre la piscine, la terrasse et l’océan",
+      "en": "Relaxing between the pool, terrace and ocean",
+      "pt": "Descontrair entre a piscina, o terraço e o oceano"
+    },
+    "id": "4B0A5553",
+    "number": 5553,
+    "original": "4B0A5553.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5553.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 116342
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5553-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 15554
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Détente entre la piscine, la terrasse et l’océan",
+      "en": "Relaxing between the pool, terrace and ocean",
+      "pt": "Descontrair entre a piscina, o terraço e o oceano"
+    },
+    "id": "4B0A5558",
+    "number": 5558,
+    "original": "4B0A5558.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5558.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 152348
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5558-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 26758
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Détente entre la piscine, la terrasse et l’océan",
+      "en": "Relaxing between the pool, terrace and ocean",
+      "pt": "Descontrair entre a piscina, o terraço e o oceano"
+    },
+    "id": "4B0A5566",
+    "number": 5566,
+    "original": "4B0A5566.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5566.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 129510
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5566-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 24922
+    }
+  },
+  {
+    "category": "people",
+    "alt": {
+      "fr": "Un membre de l’équipe présente une boisson préparée au lodge",
+      "en": "A team member presenting a drink prepared at the lodge",
+      "pt": "Um membro da equipa apresenta uma bebida preparada no lodge"
+    },
+    "id": "4B0A5578",
+    "number": 5578,
+    "original": "4B0A5578.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5578.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 127860
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5578-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 26470
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "Plateau en bois avec boissons au bord de la piscine",
+      "en": "Wooden tray with drinks beside the pool",
+      "pt": "Tabuleiro de madeira com bebidas junto à piscina"
+    },
+    "id": "4B0A5593",
+    "number": 5593,
+    "original": "4B0A5593.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5593.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 130386
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5593-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 22168
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "Saveurs et boissons préparées au Cajou Lodge",
+      "en": "Food and drinks prepared at Cajou Lodge",
+      "pt": "Sabores e bebidas preparados no Cajou Lodge"
+    },
+    "id": "4B0A5608",
+    "number": 5608,
+    "original": "4B0A5608.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5608.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 126450
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5608-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 21948
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "Saveurs et boissons préparées au Cajou Lodge",
+      "en": "Food and drinks prepared at Cajou Lodge",
+      "pt": "Sabores e bebidas preparados no Cajou Lodge"
+    },
+    "id": "4B0A5610",
+    "number": 5610,
+    "original": "4B0A5610.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5610.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 133820
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5610-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 21276
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "Saveurs et boissons préparées au Cajou Lodge",
+      "en": "Food and drinks prepared at Cajou Lodge",
+      "pt": "Sabores e bebidas preparados no Cajou Lodge"
+    },
+    "id": "4B0A5627",
+    "number": 5627,
+    "original": "4B0A5627.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5627.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 130778
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5627-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 20848
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Un voyageur se détend au bord de la piscine",
+      "en": "A traveller relaxing beside the pool",
+      "pt": "Um viajante descontrai junto à piscina"
+    },
+    "id": "4B0A5643",
+    "number": 5643,
+    "original": "4B0A5643.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5643.webp",
+      "width": 939,
+      "height": 1408,
+      "bytes": 149310
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5643-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 26852
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "Saveurs et boissons préparées au Cajou Lodge",
+      "en": "Food and drinks prepared at Cajou Lodge",
+      "pt": "Sabores e bebidas preparados no Cajou Lodge"
+    },
+    "id": "4B0A5647",
+    "number": 5647,
+    "original": "4B0A5647.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5647.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 132662
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5647-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 22228
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "Saveurs et boissons préparées au Cajou Lodge",
+      "en": "Food and drinks prepared at Cajou Lodge",
+      "pt": "Sabores e bebidas preparados no Cajou Lodge"
+    },
+    "id": "4B0A5660",
+    "number": 5660,
+    "original": "4B0A5660.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5660.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 123536
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5660-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 19190
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "Saveurs et boissons préparées au Cajou Lodge",
+      "en": "Food and drinks prepared at Cajou Lodge",
+      "pt": "Sabores e bebidas preparados no Cajou Lodge"
+    },
+    "id": "4B0A5674",
+    "number": 5674,
+    "original": "4B0A5674.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5674.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 100490
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5674-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 13330
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "Fruit ouvert et boisson présentés sur du bois sculpté",
+      "en": "Open fruit and drink presented on carved wood",
+      "pt": "Fruto aberto e bebida apresentados em madeira esculpida"
+    },
+    "id": "4B0A5685",
+    "number": 5685,
+    "original": "4B0A5685.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5685.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 121696
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5685-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 19314
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "Saveurs et boissons préparées au Cajou Lodge",
+      "en": "Food and drinks prepared at Cajou Lodge",
+      "pt": "Sabores e bebidas preparados no Cajou Lodge"
+    },
+    "id": "4B0A5696",
+    "number": 5696,
+    "original": "4B0A5696.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5696.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 132892
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5696-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 19454
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "Saveurs et boissons préparées au Cajou Lodge",
+      "en": "Food and drinks prepared at Cajou Lodge",
+      "pt": "Sabores e bebidas preparados no Cajou Lodge"
+    },
+    "id": "4B0A5697",
+    "number": 5697,
+    "original": "4B0A5697.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5697.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 121602
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5697-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 15020
+    }
+  },
+  {
+    "category": "people",
+    "alt": {
+      "fr": "Un membre de l’équipe apporte deux assiettes près de la mer",
+      "en": "A team member bringing two dishes beside the sea",
+      "pt": "Um membro da equipa traz dois pratos junto ao mar"
+    },
+    "id": "4B0A5712",
+    "number": 5712,
+    "original": "4B0A5712.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5712.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 112754
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5712-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 20246
+    }
+  },
+  {
+    "category": "people",
+    "alt": {
+      "fr": "Gestes d’accueil et moments de partage",
+      "en": "Welcoming gestures and shared moments",
+      "pt": "Gestos de acolhimento e momentos de partilha"
+    },
+    "id": "4B0A5723",
+    "number": 5723,
+    "original": "4B0A5723.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5723.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 130722
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5723-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 25904
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "Saveurs et boissons préparées au Cajou Lodge",
+      "en": "Food and drinks prepared at Cajou Lodge",
+      "pt": "Sabores e bebidas preparados no Cajou Lodge"
+    },
+    "id": "4B0A5729",
+    "number": 5729,
+    "original": "4B0A5729.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5729.webp",
+      "width": 1408,
+      "height": 939,
+      "bytes": 158928
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5729-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 30750
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Piscine et lits de repos face à la mer sous un palmier",
+      "en": "Pool and daybeds overlooking the sea beneath a palm tree",
+      "pt": "Piscina e camas de descanso com vista para o mar sob uma palmeira"
+    },
+    "id": "4B0A5740",
+    "number": 5740,
+    "original": "4B0A5740.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5740.webp",
+      "width": 939,
+      "height": 1408,
+      "bytes": 165316
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5740-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 27664
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Salon extérieur ombragé et horizon marin",
+      "en": "Shaded outdoor lounge and sea horizon",
+      "pt": "Salão exterior à sombra e horizonte marítimo"
+    },
+    "id": "4B0A5750",
+    "number": 5750,
+    "original": "4B0A5750.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5750.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 130250
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5750-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 26412
+    }
+  },
+  {
+    "category": "rooms",
+    "alt": {
+      "fr": "Un voyageur prépare ses affaires dans une chambre du lodge",
+      "en": "A guest preparing his belongings in a lodge room",
+      "pt": "Um hóspede prepara os seus pertences num quarto do lodge"
+    },
+    "id": "4B0A5758",
+    "number": 5758,
+    "original": "4B0A5758.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5758.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 68296
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5758-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 11548
+    }
+  },
+  {
+    "category": "rooms",
+    "alt": {
+      "fr": "Un voyageur prépare ses affaires dans une chambre du lodge",
+      "en": "A guest preparing his belongings in a lodge room",
+      "pt": "Um hóspede prepara os seus pertences num quarto do lodge"
+    },
+    "id": "4B0A5767",
+    "number": 5767,
+    "original": "4B0A5767.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5767.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 86390
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5767-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 14070
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "La piscine et les toits du lodge au crépuscule",
+      "en": "The pool and lodge roofs at twilight",
+      "pt": "A piscina e os telhados do lodge ao crepúsculo"
+    },
+    "id": "4B0A5784",
+    "number": 5784,
+    "original": "4B0A5784.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5784.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 120604
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5784-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 17106
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Reflets de la piscine et lumières chaudes dans le lodge",
+      "en": "Pool reflections and warm lights at the lodge",
+      "pt": "Reflexos da piscina e luzes acolhedoras no lodge"
+    },
+    "id": "4B0A5792",
+    "number": 5792,
+    "original": "4B0A5792.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5792.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 130782
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5792-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 19014
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Façade éclairée et piscine à l’heure bleue",
+      "en": "Illuminated façade and pool at blue hour",
+      "pt": "Fachada iluminada e piscina à hora azul"
+    },
+    "id": "4B0A5806",
+    "number": 5806,
+    "original": "4B0A5806.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5806.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 132410
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5806-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 16554
+    }
+  },
+  {
+    "category": "table",
+    "alt": {
+      "fr": "Saveurs et boissons préparées au Cajou Lodge",
+      "en": "Food and drinks prepared at Cajou Lodge",
+      "pt": "Sabores e bebidas preparados no Cajou Lodge"
+    },
+    "id": "4B0A5810",
+    "number": 5810,
+    "original": "4B0A5810.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5810.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 71050
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5810-640.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 9562
+    }
+  },
+  {
+    "category": "lodge",
+    "alt": {
+      "fr": "Une embarcation sur la mer devant la rive boisée",
+      "en": "A boat on the sea before the wooded shore",
+      "pt": "Uma embarcação no mar diante da margem arborizada"
+    },
+    "id": "4B0A5814",
+    "number": 5814,
+    "original": "4B0A5814.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5814.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 69262
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5814-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 5746
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Plage de sable blanc, parasols de paille et transats",
+      "en": "White sandy beach, straw parasols and sun loungers",
+      "pt": "Praia de areia branca, chapéus de palha e espreguiçadeiras"
+    },
+    "id": "4B0A5821",
+    "number": 5821,
+    "original": "4B0A5821.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5821.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 128898
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5821-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 15720
+    }
+  },
+  {
+    "category": "islands",
+    "alt": {
+      "fr": "Ombre d’un arbre et détail sculpté près de la plage",
+      "en": "Tree shade and a carved detail near the beach",
+      "pt": "Sombra de uma árvore e detalhe esculpido junto à praia"
+    },
+    "id": "4B0A5841",
+    "number": 5841,
+    "original": "4B0A5841.jpg",
+    "large": {
+      "path": "assets/photos/cajou-4b0a5841.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 122346
+    },
+    "thumb": {
+      "path": "assets/photos/cajou-4b0a5841-640.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 16562
+    }
+  }
+]

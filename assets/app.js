@@ -33,7 +33,7 @@
   };
   // Pure policy helpers keep a display choice independent from Maps consent.
   const displayPolicy = ({ mode, known, motion, systemReduced, saveData }) => {
-    const standard = known && mode === 'standard';
+    const standard = mode === 'standard';
     const reduced = !standard || motion === 'paused' || (motion !== 'playing' && (systemReduced || saveData));
     return { eco: !standard, reduced, upgradePhotos: standard && !saveData, autoVideo: standard && !reduced && !saveData, manualVideo: standard };
   };
@@ -43,7 +43,7 @@
   });
   const storedDisplayMode = readPreference(displayKey);
   let displayModeKnown = ['eco', 'standard'].includes(storedDisplayMode);
-  let displayMode = displayModeKnown ? storedDisplayMode : 'eco';
+  let displayMode = displayModeKnown ? storedDisplayMode : 'standard';
   const firstVisit = !displayModeKnown;
   const storedMotion = readPreference(motionKey);
   let motionPreference = ['paused', 'playing'].includes(storedMotion) ? storedMotion : null;
@@ -237,32 +237,61 @@
   const heroVideo = $('[data-hero-video]');
   if (heroVideo) {
     const control = $('[data-video-toggle]');
-    let heroVisible = !('IntersectionObserver' in window);
+    const hero = heroVideo.closest('.home-hero') || heroVideo;
+    const initiallyVisible = () => { const r = hero.getBoundingClientRect(); return r.bottom > 0 && r.top < innerHeight; };
+    let heroVisible = initiallyVisible();
     let userPaused = false;
     let manuallyStarted = false;
     let sourceLoaded = false;
     let videoFailed = false;
+    let playRequest = null;
+    heroVideo.muted = true;
+    heroVideo.defaultMuted = true;
+    heroVideo.playsInline = true;
+    heroVideo.setAttribute('muted', '');
+    heroVideo.setAttribute('playsinline', '');
+    heroVideo.setAttribute('webkit-playsinline', '');
     const paintVideoControl = () => {
-      const playing = !heroVideo.paused && !heroVideo.ended;
-      control.hidden = videoFailed || policy.eco;
+      if (!control) return;
+      const playing = !heroVideo.paused && !heroVideo.ended && !videoFailed;
+      control.hidden = policy.eco;
       control.classList.toggle('is-paused', !playing);
       const label = format(playing ? config.videoLabels.pause : config.videoLabels.play);
       control.setAttribute('aria-label', label);
       control.title = label;
-      $('[data-video-pause]', control).hidden = !playing;
-      $('[data-video-play]', control).hidden = playing;
-      $('[data-video-label]', control).textContent = label;
+      const pauseIcon = $('[data-video-pause]', control);
+      const playIcon = $('[data-video-play]', control);
+      if (pauseIcon) pauseIcon.hidden = !playing;
+      if (playIcon) playIcon.hidden = playing;
+      const text = $('[data-video-label]', control);
+      if (text) text.textContent = label;
     };
-    const canPlay = () => policy.manualVideo && !preferencesDialog?.open && heroVisible && !document.hidden && !userPaused && (manuallyStarted || policy.autoVideo);
-    const playVideo = async () => {
-      if (videoFailed || !policy.manualVideo || preferencesDialog?.open) return;
-      if (!sourceLoaded) {
-        $$('source[data-src]', heroVideo).forEach(source => { source.src = source.dataset.src; });
-        heroVideo.muted = true;
-        heroVideo.load();
-        sourceLoaded = true;
+    const canPlay = () => policy.manualVideo && displayModeKnown && !preferencesDialog?.open && heroVisible && !document.hidden && !userPaused && (manuallyStarted || policy.autoVideo);
+    const ensureSource = () => {
+      if (sourceLoaded) return;
+      $$('source[data-src]', heroVideo).forEach(source => { source.src = source.dataset.src; });
+      heroVideo.muted = true;
+      heroVideo.preload = 'auto';
+      sourceLoaded = true;
+      videoFailed = false;
+      heroVideo.load();
+    };
+    const playVideo = () => {
+      if (!canPlay() || playRequest) return;
+      if (videoFailed) sourceLoaded = false;
+      ensureSource();
+      heroVideo.muted = true;
+      const request = heroVideo.play();
+      if (request && typeof request.then === 'function') {
+        playRequest = request;
+        request.then(() => {
+          heroVideo.dataset.playbackState = 'playing';
+          if (!canPlay()) heroVideo.pause();
+        }).catch(() => {
+          // Browser policy or an interrupted load: keep a genuine play control.
+          heroVideo.dataset.playbackState = 'awaiting-interaction';
+        }).finally(() => { playRequest = null; paintVideoControl(); });
       }
-      try { await heroVideo.play(); } catch { /* Autoplay may be blocked; the explicit play button stays available. */ }
       paintVideoControl();
     };
     const syncVideo = () => {
@@ -270,22 +299,35 @@
       else heroVideo.pause();
       paintVideoControl();
     };
-    control.addEventListener('click', () => {
-      if (heroVideo.paused) { userPaused = false; manuallyStarted = true; playVideo(); }
+    control?.addEventListener('click', () => {
+      if (heroVideo.paused || videoFailed) { userPaused = false; manuallyStarted = true; playVideo(); }
       else { userPaused = true; heroVideo.pause(); }
+      paintVideoControl();
     });
-    heroVideo.addEventListener('playing', () => { heroVideo.classList.add('is-playing'); if (!canPlay()) heroVideo.pause(); paintVideoControl(); });
+    heroVideo.addEventListener('playing', () => {
+      videoFailed = false;
+      heroVideo.classList.add('is-playing');
+      if (!canPlay()) heroVideo.pause();
+      paintVideoControl();
+    });
     heroVideo.addEventListener('pause', paintVideoControl);
-    const videoError = () => { videoFailed = true; heroVideo.classList.remove('is-playing'); paintVideoControl(); };
-    heroVideo.addEventListener('error', videoError);
-    $$('source', heroVideo).forEach(source => source.addEventListener('error', videoError));
+    heroVideo.addEventListener('canplay', () => { if (canPlay() && heroVideo.paused) playVideo(); });
+    heroVideo.addEventListener('error', () => {
+      videoFailed = true;
+      heroVideo.dataset.playbackState = 'error';
+      heroVideo.classList.remove('is-playing');
+      paintVideoControl();
+    });
     if ('IntersectionObserver' in window) {
-      new IntersectionObserver(entries => { heroVisible = entries[0].isIntersecting; syncVideo(); }, { threshold: .12 }).observe(heroVideo.closest('.home-hero'));
+      new IntersectionObserver(entries => { heroVisible = entries[0].isIntersecting; syncVideo(); }, { threshold: 0.08 }).observe(hero);
     }
+    // Limited, event-driven retries; no polling and no bypass of an explicit pause.
+    document.addEventListener('pointerup', () => { if (canPlay() && heroVideo.paused && !videoFailed) playVideo(); }, { passive: true });
     document.addEventListener('visibilitychange', syncVideo);
+    addEventListener('pageshow', () => { heroVisible = initiallyVisible(); syncVideo(); });
     motionHandlers.push(() => {
       if (reduced) manuallyStarted = false;
-      if (policy.eco) heroVideo.classList.remove('is-playing');
+      if (policy.eco) { heroVideo.classList.remove('is-playing'); userPaused = false; }
       syncVideo();
     });
     syncVideo();
@@ -297,7 +339,7 @@
     if (lottieReaderPromise) return lottieReaderPromise;
     lottieReaderPromise = new Promise((resolve, reject) => {
       const script = document.createElement('script');
-      script.src = '/cajou-lodge/assets/lottie-light.min.js';
+      script.src = window.CajouPaths.asset('lottie-light.min.js');
       script.async = true;
       script.dataset.localLottieReader = 'true';
       script.onload = () => window.lottie ? resolve(window.lottie) : reject(new Error('Local animation reader unavailable'));
@@ -321,8 +363,10 @@
       // requesting animation JSON or creating a running player.
       if (reduced || !player.near || document.hidden) return;
       const path = player.container.dataset.lottie;
-      if (!/^\/assets\/[a-z0-9-]+\.json(?:\?[^#]*)?$/.test(path)) return;
-      player.animation = reader.loadAnimation({ container: player.container, renderer: 'svg', loop: true, autoplay: false, path, rendererSettings: { preserveAspectRatio: 'xMidYMid meet', progressiveLoad: true } });
+      const file = path.split('/').pop().split('?')[0];
+      const animationData = window.CajouLottieData?.[file];
+      if (!animationData) return;
+      player.animation = reader.loadAnimation({ container: player.container, renderer: 'svg', loop: true, autoplay: false, animationData: JSON.parse(JSON.stringify(animationData)), rendererSettings: { preserveAspectRatio: 'xMidYMid meet', progressiveLoad: true } });
       player.animation.addEventListener('DOMLoaded', () => {
         player.loaded = true;
         player.host.classList.add('is-loaded');
@@ -485,8 +529,8 @@
     button.setAttribute('aria-expanded', 'false');
     button.addEventListener('click', () => openPreferences(button));
   });
-  // A fresh visit starts with embedded photographs and no animation downloads.
-  // Dismissing this one welcome records the conservative defaults independently.
+  // A fresh visit recommends immersive mode. Maps consent is always separate.
+  // Previously stored display and accessibility choices remain respected.
   if (firstVisit && preferencesDialog) requestAnimationFrame(() => {
     if (!displayModeKnown && !$('dialog[open]')) openPreferences();
   });
