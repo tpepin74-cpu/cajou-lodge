@@ -12,27 +12,27 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - name: Inspect the supplied public photography gallery
+      - name: Install browser for gallery verification
+        run: |
+          python -m pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Inspect the normal guest entry to the supplied gallery
         shell: python
         run: |
-          import json, pathlib, re, urllib.request
-          url = 'https://birdsofpassageco.pic-time.com/-cajoulodge/gallery'
-          req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-          with urllib.request.urlopen(req, timeout=60) as response:
-              data = response.read().decode('utf-8')
-              print('Gallery HTTP status:', response.status)
-              print('Final gallery URL:', response.url)
+          import json, pathlib, re
+          from playwright.sync_api import sync_playwright
           out = pathlib.Path('/tmp/cajou-gallery'); out.mkdir(exist_ok=True)
-          (out/'gallery.html').write_text(data)
-          scripts = re.findall(r'<script[^>]+src=[\"\x27]([^\"\x27]+)', data, re.I)
-          (out/'scripts.json').write_text(json.dumps(scripts, indent=2))
-          print('HTML size:', len(data))
-          print('Title:', re.findall(r'<title>(.*?)</title>', data, re.S))
-          print('Script URLs:', json.dumps(scripts))
-          for term in ['projectId', 'projectid', 'galleryId', 'Cajou', '4B0A4094', 'cdn', 'collection']:
-              match = re.search(re.escape(term), data, re.I)
-              if match:
-                  print('Gallery metadata near', term, ':', data[max(0, match.start()-150):match.start()+700])
+          with sync_playwright() as p:
+              browser = p.chromium.launch()
+              page = browser.new_page(viewport={'width':1440,'height':1000})
+              page.goto('https://birdsofpassageco.pic-time.com/-cajoulodge/gallery', wait_until='networkidle', timeout=90000)
+              page.wait_for_timeout(4000)
+              print('GALLERY BODY:', page.locator('body').inner_text())
+              controls = page.locator('button,a,input').evaluate_all('(els)=>els.map(e=>({tag:e.tagName,type:e.type,text:e.innerText,placeholder:e.placeholder,name:e.name,href:e.getAttribute("href")}))')
+              print('VISIBLE CONTROLS:', json.dumps(controls, ensure_ascii=False))
+              (out/'entry.html').write_text(page.content())
+              page.screenshot(path=str(out/'entry.png'),full_page=True)
+              browser.close()
       - uses: actions/upload-artifact@v4
         with:
           name: cajou-gallery-inspection
